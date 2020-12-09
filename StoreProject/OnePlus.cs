@@ -21,5 +21,17 @@ namespace StoreProject
         {
 
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Products p = new Products();
+            p.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MainMenu m = new MainMenu();
+            m.Show();
+        }
     }
 }

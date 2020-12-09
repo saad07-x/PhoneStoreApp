@@ -86,7 +86,7 @@ namespace StoreProject
         private void button3_Click(object sender, EventArgs e)
         {
             this.Hide();
-            MainMenu fm2 = new MainMenu();
+            OnePlus fm2 = new OnePlus();
             fm2.Show();
         }
 
