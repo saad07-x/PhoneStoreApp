@@ -24,6 +24,7 @@ namespace StoreProject
 
         private void bunifuThinButton21_Click(object sender, EventArgs e)
         {
+            this.Hide();
             Samsung s = new Samsung();
             s.Show();
         }
@@ -37,24 +38,28 @@ namespace StoreProject
 
         private void bunifuThinButton23_Click(object sender, EventArgs e)
         {
+            this.Hide();
             Huawei h = new Huawei();
             h.Show();
         }
 
         private void bunifuThinButton25_Click(object sender, EventArgs e)
         {
+            this.Hide();
             Blackberry b = new Blackberry();
             b.Show();
         }
 
         private void bunifuThinButton22_Click(object sender, EventArgs e)
         {
+            this.Hide();
             Apple a = new Apple();
             a.Show();
         }
 
         private void bunifuThinButton24_Click(object sender, EventArgs e)
         {
+            this.Hide();
             OnePlus o = new OnePlus();
             o.Show();
         }

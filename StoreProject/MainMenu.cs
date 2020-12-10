@@ -24,6 +24,8 @@ namespace StoreProject
 
         private void bunifuThinButton21_Click(object sender, EventArgs e)
         {
+            this.Hide();
+           
             Products p = new Products();
             p.Show();
         }

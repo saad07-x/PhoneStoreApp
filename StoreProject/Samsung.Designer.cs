@@ -31,24 +31,24 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Samsung));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.bunifuThinButton27 = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.S4 = new Bunifu.Framework.UI.BunifuThinButton2();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.bunifuThinButton28 = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.bunifuThinButton29 = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.S5 = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.S6 = new Bunifu.Framework.UI.BunifuThinButton2();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.bunifuThinButton24 = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.S7 = new Bunifu.Framework.UI.BunifuThinButton2();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.bunifuThinButton25 = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.bunifuThinButton26 = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.S8 = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.S9 = new Bunifu.Framework.UI.BunifuThinButton2();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.bunifuThinButton23 = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.S21 = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.S20 = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.S10 = new Bunifu.Framework.UI.BunifuThinButton2();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.bunifuThinButton22 = new Bunifu.Framework.UI.BunifuThinButton2();
             this.label1 = new System.Windows.Forms.Label();
-            this.bunifuThinButton21 = new Bunifu.Framework.UI.BunifuThinButton2();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.button1 = new System.Windows.Forms.Button();
@@ -73,24 +73,24 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Black;
-            this.panel1.Controls.Add(this.bunifuThinButton27);
+            this.panel1.Controls.Add(this.S4);
             this.panel1.Controls.Add(this.pictureBox7);
             this.panel1.Controls.Add(this.pictureBox8);
-            this.panel1.Controls.Add(this.bunifuThinButton28);
-            this.panel1.Controls.Add(this.bunifuThinButton29);
+            this.panel1.Controls.Add(this.S5);
+            this.panel1.Controls.Add(this.S6);
             this.panel1.Controls.Add(this.pictureBox9);
-            this.panel1.Controls.Add(this.bunifuThinButton24);
+            this.panel1.Controls.Add(this.S7);
             this.panel1.Controls.Add(this.pictureBox4);
             this.panel1.Controls.Add(this.pictureBox5);
-            this.panel1.Controls.Add(this.bunifuThinButton25);
-            this.panel1.Controls.Add(this.bunifuThinButton26);
+            this.panel1.Controls.Add(this.S8);
+            this.panel1.Controls.Add(this.S9);
             this.panel1.Controls.Add(this.pictureBox6);
-            this.panel1.Controls.Add(this.bunifuThinButton23);
+            this.panel1.Controls.Add(this.S21);
+            this.panel1.Controls.Add(this.S20);
+            this.panel1.Controls.Add(this.S10);
             this.panel1.Controls.Add(this.pictureBox3);
             this.panel1.Controls.Add(this.pictureBox2);
-            this.panel1.Controls.Add(this.bunifuThinButton22);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Controls.Add(this.bunifuThinButton21);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Right;
             this.panel1.Location = new System.Drawing.Point(254, 0);
@@ -98,30 +98,31 @@
             this.panel1.Size = new System.Drawing.Size(848, 890);
             this.panel1.TabIndex = 0;
             // 
-            // bunifuThinButton27
+            // S4
             // 
-            this.bunifuThinButton27.ActiveBorderThickness = 1;
-            this.bunifuThinButton27.ActiveCornerRadius = 20;
-            this.bunifuThinButton27.ActiveFillColor = System.Drawing.Color.Silver;
-            this.bunifuThinButton27.ActiveForecolor = System.Drawing.Color.White;
-            this.bunifuThinButton27.ActiveLineColor = System.Drawing.Color.Silver;
-            this.bunifuThinButton27.BackColor = System.Drawing.Color.Black;
-            this.bunifuThinButton27.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton27.BackgroundImage")));
-            this.bunifuThinButton27.ButtonText = "GALAXY S4";
-            this.bunifuThinButton27.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuThinButton27.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuThinButton27.ForeColor = System.Drawing.Color.SeaGreen;
-            this.bunifuThinButton27.IdleBorderThickness = 3;
-            this.bunifuThinButton27.IdleCornerRadius = 20;
-            this.bunifuThinButton27.IdleFillColor = System.Drawing.Color.Black;
-            this.bunifuThinButton27.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bunifuThinButton27.IdleLineColor = System.Drawing.Color.Silver;
-            this.bunifuThinButton27.Location = new System.Drawing.Point(591, 835);
-            this.bunifuThinButton27.Margin = new System.Windows.Forms.Padding(5);
-            this.bunifuThinButton27.Name = "bunifuThinButton27";
-            this.bunifuThinButton27.Size = new System.Drawing.Size(189, 48);
-            this.bunifuThinButton27.TabIndex = 21;
-            this.bunifuThinButton27.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.S4.ActiveBorderThickness = 1;
+            this.S4.ActiveCornerRadius = 20;
+            this.S4.ActiveFillColor = System.Drawing.Color.Silver;
+            this.S4.ActiveForecolor = System.Drawing.Color.White;
+            this.S4.ActiveLineColor = System.Drawing.Color.Silver;
+            this.S4.BackColor = System.Drawing.Color.Black;
+            this.S4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("S4.BackgroundImage")));
+            this.S4.ButtonText = "GALAXY S4";
+            this.S4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.S4.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.S4.ForeColor = System.Drawing.Color.SeaGreen;
+            this.S4.IdleBorderThickness = 3;
+            this.S4.IdleCornerRadius = 20;
+            this.S4.IdleFillColor = System.Drawing.Color.Black;
+            this.S4.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.S4.IdleLineColor = System.Drawing.Color.Silver;
+            this.S4.Location = new System.Drawing.Point(591, 835);
+            this.S4.Margin = new System.Windows.Forms.Padding(5);
+            this.S4.Name = "S4";
+            this.S4.Size = new System.Drawing.Size(189, 48);
+            this.S4.TabIndex = 21;
+            this.S4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.S4.Click += new System.EventHandler(this.S4_Click);
             // 
             // pictureBox7
             // 
@@ -145,55 +146,57 @@
             this.pictureBox8.TabIndex = 19;
             this.pictureBox8.TabStop = false;
             // 
-            // bunifuThinButton28
+            // S5
             // 
-            this.bunifuThinButton28.ActiveBorderThickness = 1;
-            this.bunifuThinButton28.ActiveCornerRadius = 20;
-            this.bunifuThinButton28.ActiveFillColor = System.Drawing.Color.Silver;
-            this.bunifuThinButton28.ActiveForecolor = System.Drawing.Color.White;
-            this.bunifuThinButton28.ActiveLineColor = System.Drawing.Color.Silver;
-            this.bunifuThinButton28.BackColor = System.Drawing.Color.Black;
-            this.bunifuThinButton28.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton28.BackgroundImage")));
-            this.bunifuThinButton28.ButtonText = "GALAXY S5";
-            this.bunifuThinButton28.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuThinButton28.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuThinButton28.ForeColor = System.Drawing.Color.SeaGreen;
-            this.bunifuThinButton28.IdleBorderThickness = 3;
-            this.bunifuThinButton28.IdleCornerRadius = 20;
-            this.bunifuThinButton28.IdleFillColor = System.Drawing.Color.Black;
-            this.bunifuThinButton28.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bunifuThinButton28.IdleLineColor = System.Drawing.Color.Silver;
-            this.bunifuThinButton28.Location = new System.Drawing.Point(334, 835);
-            this.bunifuThinButton28.Margin = new System.Windows.Forms.Padding(5);
-            this.bunifuThinButton28.Name = "bunifuThinButton28";
-            this.bunifuThinButton28.Size = new System.Drawing.Size(189, 48);
-            this.bunifuThinButton28.TabIndex = 18;
-            this.bunifuThinButton28.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.S5.ActiveBorderThickness = 1;
+            this.S5.ActiveCornerRadius = 20;
+            this.S5.ActiveFillColor = System.Drawing.Color.Silver;
+            this.S5.ActiveForecolor = System.Drawing.Color.White;
+            this.S5.ActiveLineColor = System.Drawing.Color.Silver;
+            this.S5.BackColor = System.Drawing.Color.Black;
+            this.S5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("S5.BackgroundImage")));
+            this.S5.ButtonText = "GALAXY S5";
+            this.S5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.S5.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.S5.ForeColor = System.Drawing.Color.SeaGreen;
+            this.S5.IdleBorderThickness = 3;
+            this.S5.IdleCornerRadius = 20;
+            this.S5.IdleFillColor = System.Drawing.Color.Black;
+            this.S5.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.S5.IdleLineColor = System.Drawing.Color.Silver;
+            this.S5.Location = new System.Drawing.Point(334, 835);
+            this.S5.Margin = new System.Windows.Forms.Padding(5);
+            this.S5.Name = "S5";
+            this.S5.Size = new System.Drawing.Size(189, 48);
+            this.S5.TabIndex = 18;
+            this.S5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.S5.Click += new System.EventHandler(this.S5_Click);
             // 
-            // bunifuThinButton29
+            // S6
             // 
-            this.bunifuThinButton29.ActiveBorderThickness = 1;
-            this.bunifuThinButton29.ActiveCornerRadius = 20;
-            this.bunifuThinButton29.ActiveFillColor = System.Drawing.Color.Silver;
-            this.bunifuThinButton29.ActiveForecolor = System.Drawing.Color.White;
-            this.bunifuThinButton29.ActiveLineColor = System.Drawing.Color.Silver;
-            this.bunifuThinButton29.BackColor = System.Drawing.Color.Black;
-            this.bunifuThinButton29.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton29.BackgroundImage")));
-            this.bunifuThinButton29.ButtonText = "GALAXY S6";
-            this.bunifuThinButton29.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuThinButton29.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuThinButton29.ForeColor = System.Drawing.Color.SeaGreen;
-            this.bunifuThinButton29.IdleBorderThickness = 3;
-            this.bunifuThinButton29.IdleCornerRadius = 20;
-            this.bunifuThinButton29.IdleFillColor = System.Drawing.Color.Black;
-            this.bunifuThinButton29.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bunifuThinButton29.IdleLineColor = System.Drawing.Color.Silver;
-            this.bunifuThinButton29.Location = new System.Drawing.Point(68, 835);
-            this.bunifuThinButton29.Margin = new System.Windows.Forms.Padding(5);
-            this.bunifuThinButton29.Name = "bunifuThinButton29";
-            this.bunifuThinButton29.Size = new System.Drawing.Size(189, 48);
-            this.bunifuThinButton29.TabIndex = 17;
-            this.bunifuThinButton29.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.S6.ActiveBorderThickness = 1;
+            this.S6.ActiveCornerRadius = 20;
+            this.S6.ActiveFillColor = System.Drawing.Color.Silver;
+            this.S6.ActiveForecolor = System.Drawing.Color.White;
+            this.S6.ActiveLineColor = System.Drawing.Color.Silver;
+            this.S6.BackColor = System.Drawing.Color.Black;
+            this.S6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("S6.BackgroundImage")));
+            this.S6.ButtonText = "GALAXY S6";
+            this.S6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.S6.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.S6.ForeColor = System.Drawing.Color.SeaGreen;
+            this.S6.IdleBorderThickness = 3;
+            this.S6.IdleCornerRadius = 20;
+            this.S6.IdleFillColor = System.Drawing.Color.Black;
+            this.S6.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.S6.IdleLineColor = System.Drawing.Color.Silver;
+            this.S6.Location = new System.Drawing.Point(68, 835);
+            this.S6.Margin = new System.Windows.Forms.Padding(5);
+            this.S6.Name = "S6";
+            this.S6.Size = new System.Drawing.Size(189, 48);
+            this.S6.TabIndex = 17;
+            this.S6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.S6.Click += new System.EventHandler(this.S6_Click);
             // 
             // pictureBox9
             // 
@@ -206,30 +209,31 @@
             this.pictureBox9.TabIndex = 16;
             this.pictureBox9.TabStop = false;
             // 
-            // bunifuThinButton24
+            // S7
             // 
-            this.bunifuThinButton24.ActiveBorderThickness = 1;
-            this.bunifuThinButton24.ActiveCornerRadius = 20;
-            this.bunifuThinButton24.ActiveFillColor = System.Drawing.Color.Silver;
-            this.bunifuThinButton24.ActiveForecolor = System.Drawing.Color.White;
-            this.bunifuThinButton24.ActiveLineColor = System.Drawing.Color.Silver;
-            this.bunifuThinButton24.BackColor = System.Drawing.Color.Black;
-            this.bunifuThinButton24.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton24.BackgroundImage")));
-            this.bunifuThinButton24.ButtonText = "GALAXY S7";
-            this.bunifuThinButton24.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuThinButton24.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuThinButton24.ForeColor = System.Drawing.Color.SeaGreen;
-            this.bunifuThinButton24.IdleBorderThickness = 3;
-            this.bunifuThinButton24.IdleCornerRadius = 20;
-            this.bunifuThinButton24.IdleFillColor = System.Drawing.Color.Black;
-            this.bunifuThinButton24.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bunifuThinButton24.IdleLineColor = System.Drawing.Color.Silver;
-            this.bunifuThinButton24.Location = new System.Drawing.Point(591, 556);
-            this.bunifuThinButton24.Margin = new System.Windows.Forms.Padding(5);
-            this.bunifuThinButton24.Name = "bunifuThinButton24";
-            this.bunifuThinButton24.Size = new System.Drawing.Size(189, 48);
-            this.bunifuThinButton24.TabIndex = 15;
-            this.bunifuThinButton24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.S7.ActiveBorderThickness = 1;
+            this.S7.ActiveCornerRadius = 20;
+            this.S7.ActiveFillColor = System.Drawing.Color.Silver;
+            this.S7.ActiveForecolor = System.Drawing.Color.White;
+            this.S7.ActiveLineColor = System.Drawing.Color.Silver;
+            this.S7.BackColor = System.Drawing.Color.Black;
+            this.S7.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("S7.BackgroundImage")));
+            this.S7.ButtonText = "GALAXY S7";
+            this.S7.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.S7.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.S7.ForeColor = System.Drawing.Color.SeaGreen;
+            this.S7.IdleBorderThickness = 3;
+            this.S7.IdleCornerRadius = 20;
+            this.S7.IdleFillColor = System.Drawing.Color.Black;
+            this.S7.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.S7.IdleLineColor = System.Drawing.Color.Silver;
+            this.S7.Location = new System.Drawing.Point(591, 556);
+            this.S7.Margin = new System.Windows.Forms.Padding(5);
+            this.S7.Name = "S7";
+            this.S7.Size = new System.Drawing.Size(189, 48);
+            this.S7.TabIndex = 15;
+            this.S7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.S7.Click += new System.EventHandler(this.S7_Click);
             // 
             // pictureBox4
             // 
@@ -253,55 +257,57 @@
             this.pictureBox5.TabIndex = 13;
             this.pictureBox5.TabStop = false;
             // 
-            // bunifuThinButton25
+            // S8
             // 
-            this.bunifuThinButton25.ActiveBorderThickness = 1;
-            this.bunifuThinButton25.ActiveCornerRadius = 20;
-            this.bunifuThinButton25.ActiveFillColor = System.Drawing.Color.Silver;
-            this.bunifuThinButton25.ActiveForecolor = System.Drawing.Color.White;
-            this.bunifuThinButton25.ActiveLineColor = System.Drawing.Color.Silver;
-            this.bunifuThinButton25.BackColor = System.Drawing.Color.Black;
-            this.bunifuThinButton25.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton25.BackgroundImage")));
-            this.bunifuThinButton25.ButtonText = "GALAXY S8";
-            this.bunifuThinButton25.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuThinButton25.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuThinButton25.ForeColor = System.Drawing.Color.SeaGreen;
-            this.bunifuThinButton25.IdleBorderThickness = 3;
-            this.bunifuThinButton25.IdleCornerRadius = 20;
-            this.bunifuThinButton25.IdleFillColor = System.Drawing.Color.Black;
-            this.bunifuThinButton25.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bunifuThinButton25.IdleLineColor = System.Drawing.Color.Silver;
-            this.bunifuThinButton25.Location = new System.Drawing.Point(334, 556);
-            this.bunifuThinButton25.Margin = new System.Windows.Forms.Padding(5);
-            this.bunifuThinButton25.Name = "bunifuThinButton25";
-            this.bunifuThinButton25.Size = new System.Drawing.Size(189, 48);
-            this.bunifuThinButton25.TabIndex = 12;
-            this.bunifuThinButton25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.S8.ActiveBorderThickness = 1;
+            this.S8.ActiveCornerRadius = 20;
+            this.S8.ActiveFillColor = System.Drawing.Color.Silver;
+            this.S8.ActiveForecolor = System.Drawing.Color.White;
+            this.S8.ActiveLineColor = System.Drawing.Color.Silver;
+            this.S8.BackColor = System.Drawing.Color.Black;
+            this.S8.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("S8.BackgroundImage")));
+            this.S8.ButtonText = "GALAXY S8";
+            this.S8.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.S8.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.S8.ForeColor = System.Drawing.Color.SeaGreen;
+            this.S8.IdleBorderThickness = 3;
+            this.S8.IdleCornerRadius = 20;
+            this.S8.IdleFillColor = System.Drawing.Color.Black;
+            this.S8.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.S8.IdleLineColor = System.Drawing.Color.Silver;
+            this.S8.Location = new System.Drawing.Point(334, 556);
+            this.S8.Margin = new System.Windows.Forms.Padding(5);
+            this.S8.Name = "S8";
+            this.S8.Size = new System.Drawing.Size(189, 48);
+            this.S8.TabIndex = 12;
+            this.S8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.S8.Click += new System.EventHandler(this.S8_Click);
             // 
-            // bunifuThinButton26
+            // S9
             // 
-            this.bunifuThinButton26.ActiveBorderThickness = 1;
-            this.bunifuThinButton26.ActiveCornerRadius = 20;
-            this.bunifuThinButton26.ActiveFillColor = System.Drawing.Color.Silver;
-            this.bunifuThinButton26.ActiveForecolor = System.Drawing.Color.White;
-            this.bunifuThinButton26.ActiveLineColor = System.Drawing.Color.Silver;
-            this.bunifuThinButton26.BackColor = System.Drawing.Color.Black;
-            this.bunifuThinButton26.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton26.BackgroundImage")));
-            this.bunifuThinButton26.ButtonText = "GALAXY S9";
-            this.bunifuThinButton26.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuThinButton26.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuThinButton26.ForeColor = System.Drawing.Color.SeaGreen;
-            this.bunifuThinButton26.IdleBorderThickness = 3;
-            this.bunifuThinButton26.IdleCornerRadius = 20;
-            this.bunifuThinButton26.IdleFillColor = System.Drawing.Color.Black;
-            this.bunifuThinButton26.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bunifuThinButton26.IdleLineColor = System.Drawing.Color.Silver;
-            this.bunifuThinButton26.Location = new System.Drawing.Point(68, 556);
-            this.bunifuThinButton26.Margin = new System.Windows.Forms.Padding(5);
-            this.bunifuThinButton26.Name = "bunifuThinButton26";
-            this.bunifuThinButton26.Size = new System.Drawing.Size(189, 48);
-            this.bunifuThinButton26.TabIndex = 11;
-            this.bunifuThinButton26.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.S9.ActiveBorderThickness = 1;
+            this.S9.ActiveCornerRadius = 20;
+            this.S9.ActiveFillColor = System.Drawing.Color.Silver;
+            this.S9.ActiveForecolor = System.Drawing.Color.White;
+            this.S9.ActiveLineColor = System.Drawing.Color.Silver;
+            this.S9.BackColor = System.Drawing.Color.Black;
+            this.S9.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("S9.BackgroundImage")));
+            this.S9.ButtonText = "GALAXY S9";
+            this.S9.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.S9.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.S9.ForeColor = System.Drawing.Color.SeaGreen;
+            this.S9.IdleBorderThickness = 3;
+            this.S9.IdleCornerRadius = 20;
+            this.S9.IdleFillColor = System.Drawing.Color.Black;
+            this.S9.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.S9.IdleLineColor = System.Drawing.Color.Silver;
+            this.S9.Location = new System.Drawing.Point(68, 556);
+            this.S9.Margin = new System.Windows.Forms.Padding(5);
+            this.S9.Name = "S9";
+            this.S9.Size = new System.Drawing.Size(189, 48);
+            this.S9.TabIndex = 11;
+            this.S9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.S9.Click += new System.EventHandler(this.S9_Click);
             // 
             // pictureBox6
             // 
@@ -314,30 +320,83 @@
             this.pictureBox6.TabIndex = 10;
             this.pictureBox6.TabStop = false;
             // 
-            // bunifuThinButton23
+            // S21
             // 
-            this.bunifuThinButton23.ActiveBorderThickness = 1;
-            this.bunifuThinButton23.ActiveCornerRadius = 20;
-            this.bunifuThinButton23.ActiveFillColor = System.Drawing.Color.Silver;
-            this.bunifuThinButton23.ActiveForecolor = System.Drawing.Color.White;
-            this.bunifuThinButton23.ActiveLineColor = System.Drawing.Color.Silver;
-            this.bunifuThinButton23.BackColor = System.Drawing.Color.Black;
-            this.bunifuThinButton23.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton23.BackgroundImage")));
-            this.bunifuThinButton23.ButtonText = "GALAXY S10";
-            this.bunifuThinButton23.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuThinButton23.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuThinButton23.ForeColor = System.Drawing.Color.SeaGreen;
-            this.bunifuThinButton23.IdleBorderThickness = 3;
-            this.bunifuThinButton23.IdleCornerRadius = 20;
-            this.bunifuThinButton23.IdleFillColor = System.Drawing.Color.Black;
-            this.bunifuThinButton23.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bunifuThinButton23.IdleLineColor = System.Drawing.Color.Silver;
-            this.bunifuThinButton23.Location = new System.Drawing.Point(591, 266);
-            this.bunifuThinButton23.Margin = new System.Windows.Forms.Padding(5);
-            this.bunifuThinButton23.Name = "bunifuThinButton23";
-            this.bunifuThinButton23.Size = new System.Drawing.Size(189, 48);
-            this.bunifuThinButton23.TabIndex = 9;
-            this.bunifuThinButton23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.S21.ActiveBorderThickness = 1;
+            this.S21.ActiveCornerRadius = 20;
+            this.S21.ActiveFillColor = System.Drawing.Color.Silver;
+            this.S21.ActiveForecolor = System.Drawing.Color.White;
+            this.S21.ActiveLineColor = System.Drawing.Color.Silver;
+            this.S21.BackColor = System.Drawing.Color.Black;
+            this.S21.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("S21.BackgroundImage")));
+            this.S21.ButtonText = "GALAXY S21";
+            this.S21.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.S21.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.S21.ForeColor = System.Drawing.Color.SeaGreen;
+            this.S21.IdleBorderThickness = 3;
+            this.S21.IdleCornerRadius = 20;
+            this.S21.IdleFillColor = System.Drawing.Color.Black;
+            this.S21.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.S21.IdleLineColor = System.Drawing.Color.Silver;
+            this.S21.Location = new System.Drawing.Point(68, 266);
+            this.S21.Margin = new System.Windows.Forms.Padding(5);
+            this.S21.Name = "S21";
+            this.S21.Size = new System.Drawing.Size(189, 48);
+            this.S21.TabIndex = 9;
+            this.S21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.S21.Click += new System.EventHandler(this.S21_Click);
+            // 
+            // S20
+            // 
+            this.S20.ActiveBorderThickness = 1;
+            this.S20.ActiveCornerRadius = 20;
+            this.S20.ActiveFillColor = System.Drawing.Color.Silver;
+            this.S20.ActiveForecolor = System.Drawing.Color.White;
+            this.S20.ActiveLineColor = System.Drawing.Color.Silver;
+            this.S20.BackColor = System.Drawing.Color.Black;
+            this.S20.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("S20.BackgroundImage")));
+            this.S20.ButtonText = "GALAXY S20";
+            this.S20.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.S20.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.S20.ForeColor = System.Drawing.Color.SeaGreen;
+            this.S20.IdleBorderThickness = 3;
+            this.S20.IdleCornerRadius = 20;
+            this.S20.IdleFillColor = System.Drawing.Color.Black;
+            this.S20.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.S20.IdleLineColor = System.Drawing.Color.Silver;
+            this.S20.Location = new System.Drawing.Point(334, 266);
+            this.S20.Margin = new System.Windows.Forms.Padding(5);
+            this.S20.Name = "S20";
+            this.S20.Size = new System.Drawing.Size(189, 48);
+            this.S20.TabIndex = 9;
+            this.S20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.S20.Click += new System.EventHandler(this.S20_Click);
+            // 
+            // S10
+            // 
+            this.S10.ActiveBorderThickness = 1;
+            this.S10.ActiveCornerRadius = 20;
+            this.S10.ActiveFillColor = System.Drawing.Color.Silver;
+            this.S10.ActiveForecolor = System.Drawing.Color.White;
+            this.S10.ActiveLineColor = System.Drawing.Color.Silver;
+            this.S10.BackColor = System.Drawing.Color.Black;
+            this.S10.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("S10.BackgroundImage")));
+            this.S10.ButtonText = "GALAXY S10";
+            this.S10.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.S10.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.S10.ForeColor = System.Drawing.Color.SeaGreen;
+            this.S10.IdleBorderThickness = 3;
+            this.S10.IdleCornerRadius = 20;
+            this.S10.IdleFillColor = System.Drawing.Color.Black;
+            this.S10.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.S10.IdleLineColor = System.Drawing.Color.Silver;
+            this.S10.Location = new System.Drawing.Point(591, 266);
+            this.S10.Margin = new System.Windows.Forms.Padding(5);
+            this.S10.Name = "S10";
+            this.S10.Size = new System.Drawing.Size(189, 48);
+            this.S10.TabIndex = 9;
+            this.S10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.S10.Click += new System.EventHandler(this.S10_Click);
             // 
             // pictureBox3
             // 
@@ -361,31 +420,6 @@
             this.pictureBox2.TabIndex = 7;
             this.pictureBox2.TabStop = false;
             // 
-            // bunifuThinButton22
-            // 
-            this.bunifuThinButton22.ActiveBorderThickness = 1;
-            this.bunifuThinButton22.ActiveCornerRadius = 20;
-            this.bunifuThinButton22.ActiveFillColor = System.Drawing.Color.Silver;
-            this.bunifuThinButton22.ActiveForecolor = System.Drawing.Color.White;
-            this.bunifuThinButton22.ActiveLineColor = System.Drawing.Color.Silver;
-            this.bunifuThinButton22.BackColor = System.Drawing.Color.Black;
-            this.bunifuThinButton22.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton22.BackgroundImage")));
-            this.bunifuThinButton22.ButtonText = "GALAXY S11";
-            this.bunifuThinButton22.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuThinButton22.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuThinButton22.ForeColor = System.Drawing.Color.SeaGreen;
-            this.bunifuThinButton22.IdleBorderThickness = 3;
-            this.bunifuThinButton22.IdleCornerRadius = 20;
-            this.bunifuThinButton22.IdleFillColor = System.Drawing.Color.Black;
-            this.bunifuThinButton22.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bunifuThinButton22.IdleLineColor = System.Drawing.Color.Silver;
-            this.bunifuThinButton22.Location = new System.Drawing.Point(334, 266);
-            this.bunifuThinButton22.Margin = new System.Windows.Forms.Padding(5);
-            this.bunifuThinButton22.Name = "bunifuThinButton22";
-            this.bunifuThinButton22.Size = new System.Drawing.Size(189, 48);
-            this.bunifuThinButton22.TabIndex = 6;
-            this.bunifuThinButton22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -396,31 +430,6 @@
             this.label1.Size = new System.Drawing.Size(183, 23);
             this.label1.TabIndex = 5;
             this.label1.Text = "SAMSUNG PHONES";
-            // 
-            // bunifuThinButton21
-            // 
-            this.bunifuThinButton21.ActiveBorderThickness = 1;
-            this.bunifuThinButton21.ActiveCornerRadius = 20;
-            this.bunifuThinButton21.ActiveFillColor = System.Drawing.Color.Silver;
-            this.bunifuThinButton21.ActiveForecolor = System.Drawing.Color.White;
-            this.bunifuThinButton21.ActiveLineColor = System.Drawing.Color.Silver;
-            this.bunifuThinButton21.BackColor = System.Drawing.Color.Black;
-            this.bunifuThinButton21.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton21.BackgroundImage")));
-            this.bunifuThinButton21.ButtonText = "GALAXY S20";
-            this.bunifuThinButton21.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuThinButton21.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuThinButton21.ForeColor = System.Drawing.Color.SeaGreen;
-            this.bunifuThinButton21.IdleBorderThickness = 3;
-            this.bunifuThinButton21.IdleCornerRadius = 20;
-            this.bunifuThinButton21.IdleFillColor = System.Drawing.Color.Black;
-            this.bunifuThinButton21.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bunifuThinButton21.IdleLineColor = System.Drawing.Color.Silver;
-            this.bunifuThinButton21.Location = new System.Drawing.Point(68, 266);
-            this.bunifuThinButton21.Margin = new System.Windows.Forms.Padding(5);
-            this.bunifuThinButton21.Name = "bunifuThinButton21";
-            this.bunifuThinButton21.Size = new System.Drawing.Size(189, 48);
-            this.bunifuThinButton21.TabIndex = 2;
-            this.bunifuThinButton21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // pictureBox1
             // 
@@ -469,6 +478,7 @@
             this.button2.TabIndex = 2;
             this.button2.Text = "Logout";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
@@ -576,7 +586,6 @@
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private Bunifu.Framework.UI.BunifuThinButton2 bunifuThinButton21;
         private System.Windows.Forms.PictureBox pictureBox1;
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
         private System.Windows.Forms.Label label1;
@@ -586,22 +595,23 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button5;
-        private Bunifu.Framework.UI.BunifuThinButton2 bunifuThinButton22;
-        private Bunifu.Framework.UI.BunifuThinButton2 bunifuThinButton23;
+        private Bunifu.Framework.UI.BunifuThinButton2 S10;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private Bunifu.Framework.UI.BunifuThinButton2 bunifuThinButton27;
+        private Bunifu.Framework.UI.BunifuThinButton2 S4;
         private System.Windows.Forms.PictureBox pictureBox7;
         private System.Windows.Forms.PictureBox pictureBox8;
-        private Bunifu.Framework.UI.BunifuThinButton2 bunifuThinButton28;
-        private Bunifu.Framework.UI.BunifuThinButton2 bunifuThinButton29;
+        private Bunifu.Framework.UI.BunifuThinButton2 S5;
+        private Bunifu.Framework.UI.BunifuThinButton2 S6;
         private System.Windows.Forms.PictureBox pictureBox9;
-        private Bunifu.Framework.UI.BunifuThinButton2 bunifuThinButton24;
+        private Bunifu.Framework.UI.BunifuThinButton2 S7;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox5;
-        private Bunifu.Framework.UI.BunifuThinButton2 bunifuThinButton25;
-        private Bunifu.Framework.UI.BunifuThinButton2 bunifuThinButton26;
+        private Bunifu.Framework.UI.BunifuThinButton2 S8;
+        private Bunifu.Framework.UI.BunifuThinButton2 S9;
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.Label label2;
+        private Bunifu.Framework.UI.BunifuThinButton2 S21;
+        private Bunifu.Framework.UI.BunifuThinButton2 S20;
     }
 }

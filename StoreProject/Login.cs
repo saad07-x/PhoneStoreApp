@@ -63,6 +63,8 @@ namespace StoreProject
             if(drr.HasRows == true)
             {
                 MessageBox.Show("Login Sucess");
+                MainMenu m = new MainMenu();
+                m.Show();
             }
             else
             {
@@ -78,8 +80,8 @@ namespace StoreProject
 
         private void button2_Click(object sender, EventArgs e)
         {
-            this.Close();
-            Signup frm2 = new Signup();
+            this.Hide();
+            Samsung frm2 = new Samsung();
             frm2.Show();
         }
 

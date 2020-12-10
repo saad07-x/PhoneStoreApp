@@ -107,7 +107,7 @@
             this.bunifuThinButton27.ActiveLineColor = System.Drawing.Color.Silver;
             this.bunifuThinButton27.BackColor = System.Drawing.Color.Black;
             this.bunifuThinButton27.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton27.BackgroundImage")));
-            this.bunifuThinButton27.ButtonText = "ONEPLUS 8";
+            this.bunifuThinButton27.ButtonText = "One";
             this.bunifuThinButton27.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bunifuThinButton27.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuThinButton27.ForeColor = System.Drawing.Color.SeaGreen;
@@ -154,7 +154,7 @@
             this.bunifuThinButton28.ActiveLineColor = System.Drawing.Color.Silver;
             this.bunifuThinButton28.BackColor = System.Drawing.Color.Black;
             this.bunifuThinButton28.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton28.BackgroundImage")));
-            this.bunifuThinButton28.ButtonText = "ONEPLUS 7";
+            this.bunifuThinButton28.ButtonText = "X";
             this.bunifuThinButton28.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bunifuThinButton28.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuThinButton28.ForeColor = System.Drawing.Color.SeaGreen;
@@ -179,7 +179,7 @@
             this.bunifuThinButton29.ActiveLineColor = System.Drawing.Color.Silver;
             this.bunifuThinButton29.BackColor = System.Drawing.Color.Black;
             this.bunifuThinButton29.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton29.BackgroundImage")));
-            this.bunifuThinButton29.ButtonText = "ONEPLUS 6";
+            this.bunifuThinButton29.ButtonText = "3T";
             this.bunifuThinButton29.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bunifuThinButton29.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuThinButton29.ForeColor = System.Drawing.Color.SeaGreen;
@@ -215,7 +215,7 @@
             this.bunifuThinButton24.ActiveLineColor = System.Drawing.Color.Silver;
             this.bunifuThinButton24.BackColor = System.Drawing.Color.Black;
             this.bunifuThinButton24.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton24.BackgroundImage")));
-            this.bunifuThinButton24.ButtonText = "ONEPLUS 8";
+            this.bunifuThinButton24.ButtonText = "5T";
             this.bunifuThinButton24.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bunifuThinButton24.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuThinButton24.ForeColor = System.Drawing.Color.SeaGreen;
@@ -262,7 +262,7 @@
             this.bunifuThinButton25.ActiveLineColor = System.Drawing.Color.Silver;
             this.bunifuThinButton25.BackColor = System.Drawing.Color.Black;
             this.bunifuThinButton25.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton25.BackgroundImage")));
-            this.bunifuThinButton25.ButtonText = "ONEPLUS 7";
+            this.bunifuThinButton25.ButtonText = "6T";
             this.bunifuThinButton25.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bunifuThinButton25.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuThinButton25.ForeColor = System.Drawing.Color.SeaGreen;
@@ -287,7 +287,7 @@
             this.bunifuThinButton26.ActiveLineColor = System.Drawing.Color.Silver;
             this.bunifuThinButton26.BackColor = System.Drawing.Color.Black;
             this.bunifuThinButton26.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton26.BackgroundImage")));
-            this.bunifuThinButton26.ButtonText = "ONEPLUS 6";
+            this.bunifuThinButton26.ButtonText = "7T";
             this.bunifuThinButton26.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bunifuThinButton26.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuThinButton26.ForeColor = System.Drawing.Color.SeaGreen;
@@ -323,7 +323,7 @@
             this.bunifuThinButton23.ActiveLineColor = System.Drawing.Color.Silver;
             this.bunifuThinButton23.BackColor = System.Drawing.Color.Black;
             this.bunifuThinButton23.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton23.BackgroundImage")));
-            this.bunifuThinButton23.ButtonText = "ONEPLUS 8";
+            this.bunifuThinButton23.ButtonText = "8T";
             this.bunifuThinButton23.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bunifuThinButton23.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuThinButton23.ForeColor = System.Drawing.Color.SeaGreen;
@@ -370,7 +370,7 @@
             this.bunifuThinButton22.ActiveLineColor = System.Drawing.Color.Silver;
             this.bunifuThinButton22.BackColor = System.Drawing.Color.Black;
             this.bunifuThinButton22.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton22.BackgroundImage")));
-            this.bunifuThinButton22.ButtonText = "ONEPLUS 7";
+            this.bunifuThinButton22.ButtonText = "8T";
             this.bunifuThinButton22.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bunifuThinButton22.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuThinButton22.ForeColor = System.Drawing.Color.SeaGreen;
@@ -406,7 +406,7 @@
             this.bunifuThinButton21.ActiveLineColor = System.Drawing.Color.Silver;
             this.bunifuThinButton21.BackColor = System.Drawing.Color.Black;
             this.bunifuThinButton21.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton21.BackgroundImage")));
-            this.bunifuThinButton21.ButtonText = "ONEPLUS 6";
+            this.bunifuThinButton21.ButtonText = "NORD";
             this.bunifuThinButton21.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bunifuThinButton21.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuThinButton21.ForeColor = System.Drawing.Color.SeaGreen;
@@ -470,6 +470,7 @@
             this.button2.TabIndex = 2;
             this.button2.Text = "Logout";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
@@ -545,7 +546,6 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1102, 890);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.button6);

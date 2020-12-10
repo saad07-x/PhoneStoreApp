@@ -33,5 +33,12 @@ namespace StoreProject
         {
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Login l = new Login();
+            l.Show();
+        }
     }
 }
