@@ -25,9 +25,6 @@ namespace StoreProject
         public static string Display;
         public static string Price;
 
-
-
-
         public Samsung()
         {
             InitializeComponent();
@@ -51,11 +48,6 @@ namespace StoreProject
             Login l = new Login();
             l.Show();
         }
-
-
-
-
-
         private void S21_Click(object sender, EventArgs e)
         {
             //string S = "GALAXY S21";
@@ -80,8 +72,8 @@ namespace StoreProject
             }
             
             con.Close();
-            Specification specification = new Specification();
-            specification.Show();
+            SpecificationSamsung s = new SpecificationSamsung();
+            s.Show();
         }
 
         private void S20_Click(object sender, EventArgs e)
@@ -107,8 +99,8 @@ namespace StoreProject
             }
 
             con.Close();
-            Specification specification = new Specification();
-            specification.Show();
+            SpecificationSamsung s = new SpecificationSamsung();
+            s.Show();
         }
 
         private void S10_Click(object sender, EventArgs e)
@@ -139,8 +131,8 @@ namespace StoreProject
             }
 
             con.Close();
-            Specification specification = new Specification();
-            specification.Show();
+            SpecificationSamsung s = new SpecificationSamsung();
+            s.Show();
         }
 
         private void S8_Click(object sender, EventArgs e)
@@ -166,8 +158,8 @@ namespace StoreProject
             }
 
             con.Close();
-            Specification specification = new Specification();
-            specification.Show();
+            SpecificationSamsung s = new SpecificationSamsung();
+            s.Show();
         }
 
         private void S7_Click(object sender, EventArgs e)
@@ -193,8 +185,8 @@ namespace StoreProject
             }
 
             con.Close();
-            Specification specification = new Specification();
-            specification.Show();
+            SpecificationSamsung s = new SpecificationSamsung();
+            s.Show();
         }
 
         private void S6_Click(object sender, EventArgs e)
@@ -220,8 +212,8 @@ namespace StoreProject
             }
 
             con.Close();
-            Specification specification = new Specification();
-            specification.Show();
+            SpecificationSamsung s = new SpecificationSamsung();
+            s.Show();
         }
 
         private void S5_Click(object sender, EventArgs e)
@@ -247,8 +239,8 @@ namespace StoreProject
             }
 
             con.Close();
-            Specification specification = new Specification();
-            specification.Show();
+            SpecificationSamsung s = new SpecificationSamsung();
+            s.Show();
         }
 
         private void S4_Click(object sender, EventArgs e)
@@ -274,8 +266,8 @@ namespace StoreProject
             }
 
             con.Close();
-            Specification specification = new Specification();
-            specification.Show();
+            SpecificationSamsung s = new SpecificationSamsung();
+            s.Show();
         }
     }
 }

@@ -31,24 +31,24 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Apple));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.bunifuThinButton27 = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.Ip3 = new Bunifu.Framework.UI.BunifuThinButton2();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.bunifuThinButton28 = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.bunifuThinButton29 = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.Ip4 = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.Ip5 = new Bunifu.Framework.UI.BunifuThinButton2();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.bunifuThinButton24 = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.Ip6 = new Bunifu.Framework.UI.BunifuThinButton2();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.bunifuThinButton25 = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.bunifuThinButton26 = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.Ip7 = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.IP8 = new Bunifu.Framework.UI.BunifuThinButton2();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.bunifuThinButton23 = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.Ipx = new Bunifu.Framework.UI.BunifuThinButton2();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.bunifuThinButton22 = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.Ip11 = new Bunifu.Framework.UI.BunifuThinButton2();
             this.label1 = new System.Windows.Forms.Label();
-            this.bunifuThinButton21 = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.Ip12 = new Bunifu.Framework.UI.BunifuThinButton2();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.button1 = new System.Windows.Forms.Button();
@@ -73,24 +73,24 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Black;
-            this.panel1.Controls.Add(this.bunifuThinButton27);
+            this.panel1.Controls.Add(this.Ip3);
             this.panel1.Controls.Add(this.pictureBox7);
             this.panel1.Controls.Add(this.pictureBox8);
-            this.panel1.Controls.Add(this.bunifuThinButton28);
-            this.panel1.Controls.Add(this.bunifuThinButton29);
+            this.panel1.Controls.Add(this.Ip4);
+            this.panel1.Controls.Add(this.Ip5);
             this.panel1.Controls.Add(this.pictureBox9);
-            this.panel1.Controls.Add(this.bunifuThinButton24);
+            this.panel1.Controls.Add(this.Ip6);
             this.panel1.Controls.Add(this.pictureBox4);
             this.panel1.Controls.Add(this.pictureBox5);
-            this.panel1.Controls.Add(this.bunifuThinButton25);
-            this.panel1.Controls.Add(this.bunifuThinButton26);
+            this.panel1.Controls.Add(this.Ip7);
+            this.panel1.Controls.Add(this.IP8);
             this.panel1.Controls.Add(this.pictureBox6);
-            this.panel1.Controls.Add(this.bunifuThinButton23);
+            this.panel1.Controls.Add(this.Ipx);
             this.panel1.Controls.Add(this.pictureBox3);
             this.panel1.Controls.Add(this.pictureBox2);
-            this.panel1.Controls.Add(this.bunifuThinButton22);
+            this.panel1.Controls.Add(this.Ip11);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Controls.Add(this.bunifuThinButton21);
+            this.panel1.Controls.Add(this.Ip12);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Right;
             this.panel1.Location = new System.Drawing.Point(254, 0);
@@ -98,30 +98,31 @@
             this.panel1.Size = new System.Drawing.Size(848, 890);
             this.panel1.TabIndex = 0;
             // 
-            // bunifuThinButton27
+            // Ip3
             // 
-            this.bunifuThinButton27.ActiveBorderThickness = 1;
-            this.bunifuThinButton27.ActiveCornerRadius = 20;
-            this.bunifuThinButton27.ActiveFillColor = System.Drawing.Color.Silver;
-            this.bunifuThinButton27.ActiveForecolor = System.Drawing.Color.White;
-            this.bunifuThinButton27.ActiveLineColor = System.Drawing.Color.Silver;
-            this.bunifuThinButton27.BackColor = System.Drawing.Color.Black;
-            this.bunifuThinButton27.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton27.BackgroundImage")));
-            this.bunifuThinButton27.ButtonText = "IPHONE 3";
-            this.bunifuThinButton27.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuThinButton27.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuThinButton27.ForeColor = System.Drawing.Color.SeaGreen;
-            this.bunifuThinButton27.IdleBorderThickness = 3;
-            this.bunifuThinButton27.IdleCornerRadius = 20;
-            this.bunifuThinButton27.IdleFillColor = System.Drawing.Color.Black;
-            this.bunifuThinButton27.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bunifuThinButton27.IdleLineColor = System.Drawing.Color.Silver;
-            this.bunifuThinButton27.Location = new System.Drawing.Point(591, 835);
-            this.bunifuThinButton27.Margin = new System.Windows.Forms.Padding(5);
-            this.bunifuThinButton27.Name = "bunifuThinButton27";
-            this.bunifuThinButton27.Size = new System.Drawing.Size(189, 48);
-            this.bunifuThinButton27.TabIndex = 21;
-            this.bunifuThinButton27.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Ip3.ActiveBorderThickness = 1;
+            this.Ip3.ActiveCornerRadius = 20;
+            this.Ip3.ActiveFillColor = System.Drawing.Color.Silver;
+            this.Ip3.ActiveForecolor = System.Drawing.Color.White;
+            this.Ip3.ActiveLineColor = System.Drawing.Color.Silver;
+            this.Ip3.BackColor = System.Drawing.Color.Black;
+            this.Ip3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Ip3.BackgroundImage")));
+            this.Ip3.ButtonText = "IPHONE 3";
+            this.Ip3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Ip3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Ip3.ForeColor = System.Drawing.Color.SeaGreen;
+            this.Ip3.IdleBorderThickness = 3;
+            this.Ip3.IdleCornerRadius = 20;
+            this.Ip3.IdleFillColor = System.Drawing.Color.Black;
+            this.Ip3.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.Ip3.IdleLineColor = System.Drawing.Color.Silver;
+            this.Ip3.Location = new System.Drawing.Point(591, 835);
+            this.Ip3.Margin = new System.Windows.Forms.Padding(5);
+            this.Ip3.Name = "Ip3";
+            this.Ip3.Size = new System.Drawing.Size(189, 48);
+            this.Ip3.TabIndex = 21;
+            this.Ip3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Ip3.Click += new System.EventHandler(this.Ip3_Click);
             // 
             // pictureBox7
             // 
@@ -145,55 +146,57 @@
             this.pictureBox8.TabIndex = 19;
             this.pictureBox8.TabStop = false;
             // 
-            // bunifuThinButton28
+            // Ip4
             // 
-            this.bunifuThinButton28.ActiveBorderThickness = 1;
-            this.bunifuThinButton28.ActiveCornerRadius = 20;
-            this.bunifuThinButton28.ActiveFillColor = System.Drawing.Color.Silver;
-            this.bunifuThinButton28.ActiveForecolor = System.Drawing.Color.White;
-            this.bunifuThinButton28.ActiveLineColor = System.Drawing.Color.Silver;
-            this.bunifuThinButton28.BackColor = System.Drawing.Color.Black;
-            this.bunifuThinButton28.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton28.BackgroundImage")));
-            this.bunifuThinButton28.ButtonText = "IPHONE 4";
-            this.bunifuThinButton28.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuThinButton28.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuThinButton28.ForeColor = System.Drawing.Color.SeaGreen;
-            this.bunifuThinButton28.IdleBorderThickness = 3;
-            this.bunifuThinButton28.IdleCornerRadius = 20;
-            this.bunifuThinButton28.IdleFillColor = System.Drawing.Color.Black;
-            this.bunifuThinButton28.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bunifuThinButton28.IdleLineColor = System.Drawing.Color.Silver;
-            this.bunifuThinButton28.Location = new System.Drawing.Point(334, 835);
-            this.bunifuThinButton28.Margin = new System.Windows.Forms.Padding(5);
-            this.bunifuThinButton28.Name = "bunifuThinButton28";
-            this.bunifuThinButton28.Size = new System.Drawing.Size(189, 48);
-            this.bunifuThinButton28.TabIndex = 18;
-            this.bunifuThinButton28.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Ip4.ActiveBorderThickness = 1;
+            this.Ip4.ActiveCornerRadius = 20;
+            this.Ip4.ActiveFillColor = System.Drawing.Color.Silver;
+            this.Ip4.ActiveForecolor = System.Drawing.Color.White;
+            this.Ip4.ActiveLineColor = System.Drawing.Color.Silver;
+            this.Ip4.BackColor = System.Drawing.Color.Black;
+            this.Ip4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Ip4.BackgroundImage")));
+            this.Ip4.ButtonText = "IPHONE 4";
+            this.Ip4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Ip4.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Ip4.ForeColor = System.Drawing.Color.SeaGreen;
+            this.Ip4.IdleBorderThickness = 3;
+            this.Ip4.IdleCornerRadius = 20;
+            this.Ip4.IdleFillColor = System.Drawing.Color.Black;
+            this.Ip4.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.Ip4.IdleLineColor = System.Drawing.Color.Silver;
+            this.Ip4.Location = new System.Drawing.Point(334, 835);
+            this.Ip4.Margin = new System.Windows.Forms.Padding(5);
+            this.Ip4.Name = "Ip4";
+            this.Ip4.Size = new System.Drawing.Size(189, 48);
+            this.Ip4.TabIndex = 18;
+            this.Ip4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Ip4.Click += new System.EventHandler(this.Ip4_Click);
             // 
-            // bunifuThinButton29
+            // Ip5
             // 
-            this.bunifuThinButton29.ActiveBorderThickness = 1;
-            this.bunifuThinButton29.ActiveCornerRadius = 20;
-            this.bunifuThinButton29.ActiveFillColor = System.Drawing.Color.Silver;
-            this.bunifuThinButton29.ActiveForecolor = System.Drawing.Color.White;
-            this.bunifuThinButton29.ActiveLineColor = System.Drawing.Color.Silver;
-            this.bunifuThinButton29.BackColor = System.Drawing.Color.Black;
-            this.bunifuThinButton29.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton29.BackgroundImage")));
-            this.bunifuThinButton29.ButtonText = "IPHONE 5";
-            this.bunifuThinButton29.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuThinButton29.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuThinButton29.ForeColor = System.Drawing.Color.SeaGreen;
-            this.bunifuThinButton29.IdleBorderThickness = 3;
-            this.bunifuThinButton29.IdleCornerRadius = 20;
-            this.bunifuThinButton29.IdleFillColor = System.Drawing.Color.Black;
-            this.bunifuThinButton29.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bunifuThinButton29.IdleLineColor = System.Drawing.Color.Silver;
-            this.bunifuThinButton29.Location = new System.Drawing.Point(68, 835);
-            this.bunifuThinButton29.Margin = new System.Windows.Forms.Padding(5);
-            this.bunifuThinButton29.Name = "bunifuThinButton29";
-            this.bunifuThinButton29.Size = new System.Drawing.Size(189, 48);
-            this.bunifuThinButton29.TabIndex = 17;
-            this.bunifuThinButton29.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Ip5.ActiveBorderThickness = 1;
+            this.Ip5.ActiveCornerRadius = 20;
+            this.Ip5.ActiveFillColor = System.Drawing.Color.Silver;
+            this.Ip5.ActiveForecolor = System.Drawing.Color.White;
+            this.Ip5.ActiveLineColor = System.Drawing.Color.Silver;
+            this.Ip5.BackColor = System.Drawing.Color.Black;
+            this.Ip5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Ip5.BackgroundImage")));
+            this.Ip5.ButtonText = "IPHONE 5";
+            this.Ip5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Ip5.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Ip5.ForeColor = System.Drawing.Color.SeaGreen;
+            this.Ip5.IdleBorderThickness = 3;
+            this.Ip5.IdleCornerRadius = 20;
+            this.Ip5.IdleFillColor = System.Drawing.Color.Black;
+            this.Ip5.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.Ip5.IdleLineColor = System.Drawing.Color.Silver;
+            this.Ip5.Location = new System.Drawing.Point(68, 835);
+            this.Ip5.Margin = new System.Windows.Forms.Padding(5);
+            this.Ip5.Name = "Ip5";
+            this.Ip5.Size = new System.Drawing.Size(189, 48);
+            this.Ip5.TabIndex = 17;
+            this.Ip5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Ip5.Click += new System.EventHandler(this.Ip5_Click);
             // 
             // pictureBox9
             // 
@@ -206,31 +209,31 @@
             this.pictureBox9.TabIndex = 16;
             this.pictureBox9.TabStop = false;
             // 
-            // bunifuThinButton24
+            // Ip6
             // 
-            this.bunifuThinButton24.ActiveBorderThickness = 1;
-            this.bunifuThinButton24.ActiveCornerRadius = 20;
-            this.bunifuThinButton24.ActiveFillColor = System.Drawing.Color.Silver;
-            this.bunifuThinButton24.ActiveForecolor = System.Drawing.Color.White;
-            this.bunifuThinButton24.ActiveLineColor = System.Drawing.Color.Silver;
-            this.bunifuThinButton24.BackColor = System.Drawing.Color.Black;
-            this.bunifuThinButton24.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton24.BackgroundImage")));
-            this.bunifuThinButton24.ButtonText = "IPHONE 6";
-            this.bunifuThinButton24.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuThinButton24.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuThinButton24.ForeColor = System.Drawing.Color.SeaGreen;
-            this.bunifuThinButton24.IdleBorderThickness = 3;
-            this.bunifuThinButton24.IdleCornerRadius = 20;
-            this.bunifuThinButton24.IdleFillColor = System.Drawing.Color.Black;
-            this.bunifuThinButton24.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bunifuThinButton24.IdleLineColor = System.Drawing.Color.Silver;
-            this.bunifuThinButton24.Location = new System.Drawing.Point(591, 556);
-            this.bunifuThinButton24.Margin = new System.Windows.Forms.Padding(5);
-            this.bunifuThinButton24.Name = "bunifuThinButton24";
-            this.bunifuThinButton24.Size = new System.Drawing.Size(189, 48);
-            this.bunifuThinButton24.TabIndex = 15;
-            this.bunifuThinButton24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.bunifuThinButton24.Click += new System.EventHandler(this.bunifuThinButton24_Click);
+            this.Ip6.ActiveBorderThickness = 1;
+            this.Ip6.ActiveCornerRadius = 20;
+            this.Ip6.ActiveFillColor = System.Drawing.Color.Silver;
+            this.Ip6.ActiveForecolor = System.Drawing.Color.White;
+            this.Ip6.ActiveLineColor = System.Drawing.Color.Silver;
+            this.Ip6.BackColor = System.Drawing.Color.Black;
+            this.Ip6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Ip6.BackgroundImage")));
+            this.Ip6.ButtonText = "IPHONE 6";
+            this.Ip6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Ip6.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Ip6.ForeColor = System.Drawing.Color.SeaGreen;
+            this.Ip6.IdleBorderThickness = 3;
+            this.Ip6.IdleCornerRadius = 20;
+            this.Ip6.IdleFillColor = System.Drawing.Color.Black;
+            this.Ip6.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.Ip6.IdleLineColor = System.Drawing.Color.Silver;
+            this.Ip6.Location = new System.Drawing.Point(591, 556);
+            this.Ip6.Margin = new System.Windows.Forms.Padding(5);
+            this.Ip6.Name = "Ip6";
+            this.Ip6.Size = new System.Drawing.Size(189, 48);
+            this.Ip6.TabIndex = 15;
+            this.Ip6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Ip6.Click += new System.EventHandler(this.bunifuThinButton24_Click);
             // 
             // pictureBox4
             // 
@@ -254,55 +257,57 @@
             this.pictureBox5.TabIndex = 13;
             this.pictureBox5.TabStop = false;
             // 
-            // bunifuThinButton25
+            // Ip7
             // 
-            this.bunifuThinButton25.ActiveBorderThickness = 1;
-            this.bunifuThinButton25.ActiveCornerRadius = 20;
-            this.bunifuThinButton25.ActiveFillColor = System.Drawing.Color.Silver;
-            this.bunifuThinButton25.ActiveForecolor = System.Drawing.Color.White;
-            this.bunifuThinButton25.ActiveLineColor = System.Drawing.Color.Silver;
-            this.bunifuThinButton25.BackColor = System.Drawing.Color.Black;
-            this.bunifuThinButton25.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton25.BackgroundImage")));
-            this.bunifuThinButton25.ButtonText = "IPHONE 7";
-            this.bunifuThinButton25.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuThinButton25.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuThinButton25.ForeColor = System.Drawing.Color.SeaGreen;
-            this.bunifuThinButton25.IdleBorderThickness = 3;
-            this.bunifuThinButton25.IdleCornerRadius = 20;
-            this.bunifuThinButton25.IdleFillColor = System.Drawing.Color.Black;
-            this.bunifuThinButton25.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bunifuThinButton25.IdleLineColor = System.Drawing.Color.Silver;
-            this.bunifuThinButton25.Location = new System.Drawing.Point(334, 556);
-            this.bunifuThinButton25.Margin = new System.Windows.Forms.Padding(5);
-            this.bunifuThinButton25.Name = "bunifuThinButton25";
-            this.bunifuThinButton25.Size = new System.Drawing.Size(189, 48);
-            this.bunifuThinButton25.TabIndex = 12;
-            this.bunifuThinButton25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Ip7.ActiveBorderThickness = 1;
+            this.Ip7.ActiveCornerRadius = 20;
+            this.Ip7.ActiveFillColor = System.Drawing.Color.Silver;
+            this.Ip7.ActiveForecolor = System.Drawing.Color.White;
+            this.Ip7.ActiveLineColor = System.Drawing.Color.Silver;
+            this.Ip7.BackColor = System.Drawing.Color.Black;
+            this.Ip7.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Ip7.BackgroundImage")));
+            this.Ip7.ButtonText = "IPHONE 7";
+            this.Ip7.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Ip7.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Ip7.ForeColor = System.Drawing.Color.SeaGreen;
+            this.Ip7.IdleBorderThickness = 3;
+            this.Ip7.IdleCornerRadius = 20;
+            this.Ip7.IdleFillColor = System.Drawing.Color.Black;
+            this.Ip7.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.Ip7.IdleLineColor = System.Drawing.Color.Silver;
+            this.Ip7.Location = new System.Drawing.Point(334, 556);
+            this.Ip7.Margin = new System.Windows.Forms.Padding(5);
+            this.Ip7.Name = "Ip7";
+            this.Ip7.Size = new System.Drawing.Size(189, 48);
+            this.Ip7.TabIndex = 12;
+            this.Ip7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Ip7.Click += new System.EventHandler(this.Ip7_Click);
             // 
-            // bunifuThinButton26
+            // IP8
             // 
-            this.bunifuThinButton26.ActiveBorderThickness = 1;
-            this.bunifuThinButton26.ActiveCornerRadius = 20;
-            this.bunifuThinButton26.ActiveFillColor = System.Drawing.Color.Silver;
-            this.bunifuThinButton26.ActiveForecolor = System.Drawing.Color.White;
-            this.bunifuThinButton26.ActiveLineColor = System.Drawing.Color.Silver;
-            this.bunifuThinButton26.BackColor = System.Drawing.Color.Black;
-            this.bunifuThinButton26.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton26.BackgroundImage")));
-            this.bunifuThinButton26.ButtonText = "IPHONE 8";
-            this.bunifuThinButton26.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuThinButton26.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuThinButton26.ForeColor = System.Drawing.Color.SeaGreen;
-            this.bunifuThinButton26.IdleBorderThickness = 3;
-            this.bunifuThinButton26.IdleCornerRadius = 20;
-            this.bunifuThinButton26.IdleFillColor = System.Drawing.Color.Black;
-            this.bunifuThinButton26.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bunifuThinButton26.IdleLineColor = System.Drawing.Color.Silver;
-            this.bunifuThinButton26.Location = new System.Drawing.Point(68, 556);
-            this.bunifuThinButton26.Margin = new System.Windows.Forms.Padding(5);
-            this.bunifuThinButton26.Name = "bunifuThinButton26";
-            this.bunifuThinButton26.Size = new System.Drawing.Size(189, 48);
-            this.bunifuThinButton26.TabIndex = 11;
-            this.bunifuThinButton26.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.IP8.ActiveBorderThickness = 1;
+            this.IP8.ActiveCornerRadius = 20;
+            this.IP8.ActiveFillColor = System.Drawing.Color.Silver;
+            this.IP8.ActiveForecolor = System.Drawing.Color.White;
+            this.IP8.ActiveLineColor = System.Drawing.Color.Silver;
+            this.IP8.BackColor = System.Drawing.Color.Black;
+            this.IP8.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("IP8.BackgroundImage")));
+            this.IP8.ButtonText = "IPHONE 8";
+            this.IP8.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.IP8.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.IP8.ForeColor = System.Drawing.Color.SeaGreen;
+            this.IP8.IdleBorderThickness = 3;
+            this.IP8.IdleCornerRadius = 20;
+            this.IP8.IdleFillColor = System.Drawing.Color.Black;
+            this.IP8.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.IP8.IdleLineColor = System.Drawing.Color.Silver;
+            this.IP8.Location = new System.Drawing.Point(68, 556);
+            this.IP8.Margin = new System.Windows.Forms.Padding(5);
+            this.IP8.Name = "IP8";
+            this.IP8.Size = new System.Drawing.Size(189, 48);
+            this.IP8.TabIndex = 11;
+            this.IP8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.IP8.Click += new System.EventHandler(this.IP8_Click);
             // 
             // pictureBox6
             // 
@@ -315,30 +320,31 @@
             this.pictureBox6.TabIndex = 10;
             this.pictureBox6.TabStop = false;
             // 
-            // bunifuThinButton23
+            // Ipx
             // 
-            this.bunifuThinButton23.ActiveBorderThickness = 1;
-            this.bunifuThinButton23.ActiveCornerRadius = 20;
-            this.bunifuThinButton23.ActiveFillColor = System.Drawing.Color.Silver;
-            this.bunifuThinButton23.ActiveForecolor = System.Drawing.Color.White;
-            this.bunifuThinButton23.ActiveLineColor = System.Drawing.Color.Silver;
-            this.bunifuThinButton23.BackColor = System.Drawing.Color.Black;
-            this.bunifuThinButton23.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton23.BackgroundImage")));
-            this.bunifuThinButton23.ButtonText = "IPHONE X";
-            this.bunifuThinButton23.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuThinButton23.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuThinButton23.ForeColor = System.Drawing.Color.SeaGreen;
-            this.bunifuThinButton23.IdleBorderThickness = 3;
-            this.bunifuThinButton23.IdleCornerRadius = 20;
-            this.bunifuThinButton23.IdleFillColor = System.Drawing.Color.Black;
-            this.bunifuThinButton23.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bunifuThinButton23.IdleLineColor = System.Drawing.Color.Silver;
-            this.bunifuThinButton23.Location = new System.Drawing.Point(591, 266);
-            this.bunifuThinButton23.Margin = new System.Windows.Forms.Padding(5);
-            this.bunifuThinButton23.Name = "bunifuThinButton23";
-            this.bunifuThinButton23.Size = new System.Drawing.Size(189, 48);
-            this.bunifuThinButton23.TabIndex = 9;
-            this.bunifuThinButton23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Ipx.ActiveBorderThickness = 1;
+            this.Ipx.ActiveCornerRadius = 20;
+            this.Ipx.ActiveFillColor = System.Drawing.Color.Silver;
+            this.Ipx.ActiveForecolor = System.Drawing.Color.White;
+            this.Ipx.ActiveLineColor = System.Drawing.Color.Silver;
+            this.Ipx.BackColor = System.Drawing.Color.Black;
+            this.Ipx.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Ipx.BackgroundImage")));
+            this.Ipx.ButtonText = "IPHONE X";
+            this.Ipx.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Ipx.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Ipx.ForeColor = System.Drawing.Color.SeaGreen;
+            this.Ipx.IdleBorderThickness = 3;
+            this.Ipx.IdleCornerRadius = 20;
+            this.Ipx.IdleFillColor = System.Drawing.Color.Black;
+            this.Ipx.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.Ipx.IdleLineColor = System.Drawing.Color.Silver;
+            this.Ipx.Location = new System.Drawing.Point(591, 266);
+            this.Ipx.Margin = new System.Windows.Forms.Padding(5);
+            this.Ipx.Name = "Ipx";
+            this.Ipx.Size = new System.Drawing.Size(189, 48);
+            this.Ipx.TabIndex = 9;
+            this.Ipx.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Ipx.Click += new System.EventHandler(this.Ipx_Click);
             // 
             // pictureBox3
             // 
@@ -362,30 +368,31 @@
             this.pictureBox2.TabIndex = 7;
             this.pictureBox2.TabStop = false;
             // 
-            // bunifuThinButton22
+            // Ip11
             // 
-            this.bunifuThinButton22.ActiveBorderThickness = 1;
-            this.bunifuThinButton22.ActiveCornerRadius = 20;
-            this.bunifuThinButton22.ActiveFillColor = System.Drawing.Color.Silver;
-            this.bunifuThinButton22.ActiveForecolor = System.Drawing.Color.White;
-            this.bunifuThinButton22.ActiveLineColor = System.Drawing.Color.Silver;
-            this.bunifuThinButton22.BackColor = System.Drawing.Color.Black;
-            this.bunifuThinButton22.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton22.BackgroundImage")));
-            this.bunifuThinButton22.ButtonText = "IPHONE 11";
-            this.bunifuThinButton22.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuThinButton22.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuThinButton22.ForeColor = System.Drawing.Color.SeaGreen;
-            this.bunifuThinButton22.IdleBorderThickness = 3;
-            this.bunifuThinButton22.IdleCornerRadius = 20;
-            this.bunifuThinButton22.IdleFillColor = System.Drawing.Color.Black;
-            this.bunifuThinButton22.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bunifuThinButton22.IdleLineColor = System.Drawing.Color.Silver;
-            this.bunifuThinButton22.Location = new System.Drawing.Point(334, 266);
-            this.bunifuThinButton22.Margin = new System.Windows.Forms.Padding(5);
-            this.bunifuThinButton22.Name = "bunifuThinButton22";
-            this.bunifuThinButton22.Size = new System.Drawing.Size(189, 48);
-            this.bunifuThinButton22.TabIndex = 6;
-            this.bunifuThinButton22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Ip11.ActiveBorderThickness = 1;
+            this.Ip11.ActiveCornerRadius = 20;
+            this.Ip11.ActiveFillColor = System.Drawing.Color.Silver;
+            this.Ip11.ActiveForecolor = System.Drawing.Color.White;
+            this.Ip11.ActiveLineColor = System.Drawing.Color.Silver;
+            this.Ip11.BackColor = System.Drawing.Color.Black;
+            this.Ip11.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Ip11.BackgroundImage")));
+            this.Ip11.ButtonText = "IPHONE 11";
+            this.Ip11.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Ip11.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Ip11.ForeColor = System.Drawing.Color.SeaGreen;
+            this.Ip11.IdleBorderThickness = 3;
+            this.Ip11.IdleCornerRadius = 20;
+            this.Ip11.IdleFillColor = System.Drawing.Color.Black;
+            this.Ip11.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.Ip11.IdleLineColor = System.Drawing.Color.Silver;
+            this.Ip11.Location = new System.Drawing.Point(334, 266);
+            this.Ip11.Margin = new System.Windows.Forms.Padding(5);
+            this.Ip11.Name = "Ip11";
+            this.Ip11.Size = new System.Drawing.Size(189, 48);
+            this.Ip11.TabIndex = 6;
+            this.Ip11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Ip11.Click += new System.EventHandler(this.Ip11_Click);
             // 
             // label1
             // 
@@ -398,30 +405,31 @@
             this.label1.TabIndex = 5;
             this.label1.Text = "APPLE PHONES";
             // 
-            // bunifuThinButton21
+            // Ip12
             // 
-            this.bunifuThinButton21.ActiveBorderThickness = 1;
-            this.bunifuThinButton21.ActiveCornerRadius = 20;
-            this.bunifuThinButton21.ActiveFillColor = System.Drawing.Color.Silver;
-            this.bunifuThinButton21.ActiveForecolor = System.Drawing.Color.White;
-            this.bunifuThinButton21.ActiveLineColor = System.Drawing.Color.Silver;
-            this.bunifuThinButton21.BackColor = System.Drawing.Color.Black;
-            this.bunifuThinButton21.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton21.BackgroundImage")));
-            this.bunifuThinButton21.ButtonText = "IPHONE 12";
-            this.bunifuThinButton21.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuThinButton21.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuThinButton21.ForeColor = System.Drawing.Color.SeaGreen;
-            this.bunifuThinButton21.IdleBorderThickness = 3;
-            this.bunifuThinButton21.IdleCornerRadius = 20;
-            this.bunifuThinButton21.IdleFillColor = System.Drawing.Color.Black;
-            this.bunifuThinButton21.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bunifuThinButton21.IdleLineColor = System.Drawing.Color.Silver;
-            this.bunifuThinButton21.Location = new System.Drawing.Point(68, 266);
-            this.bunifuThinButton21.Margin = new System.Windows.Forms.Padding(5);
-            this.bunifuThinButton21.Name = "bunifuThinButton21";
-            this.bunifuThinButton21.Size = new System.Drawing.Size(189, 48);
-            this.bunifuThinButton21.TabIndex = 2;
-            this.bunifuThinButton21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Ip12.ActiveBorderThickness = 1;
+            this.Ip12.ActiveCornerRadius = 20;
+            this.Ip12.ActiveFillColor = System.Drawing.Color.Silver;
+            this.Ip12.ActiveForecolor = System.Drawing.Color.White;
+            this.Ip12.ActiveLineColor = System.Drawing.Color.Silver;
+            this.Ip12.BackColor = System.Drawing.Color.Black;
+            this.Ip12.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Ip12.BackgroundImage")));
+            this.Ip12.ButtonText = "IPHONE 12";
+            this.Ip12.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Ip12.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Ip12.ForeColor = System.Drawing.Color.SeaGreen;
+            this.Ip12.IdleBorderThickness = 3;
+            this.Ip12.IdleCornerRadius = 20;
+            this.Ip12.IdleFillColor = System.Drawing.Color.Black;
+            this.Ip12.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.Ip12.IdleLineColor = System.Drawing.Color.Silver;
+            this.Ip12.Location = new System.Drawing.Point(68, 266);
+            this.Ip12.Margin = new System.Windows.Forms.Padding(5);
+            this.Ip12.Name = "Ip12";
+            this.Ip12.Size = new System.Drawing.Size(189, 48);
+            this.Ip12.TabIndex = 2;
+            this.Ip12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Ip12.Click += new System.EventHandler(this.bunifuThinButton21_Click);
             // 
             // pictureBox1
             // 
@@ -559,6 +567,7 @@
             this.Name = "Apple";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MainMenu";
+            this.Load += new System.EventHandler(this.Apple_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
@@ -578,7 +587,7 @@
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private Bunifu.Framework.UI.BunifuThinButton2 bunifuThinButton21;
+        private Bunifu.Framework.UI.BunifuThinButton2 Ip12;
         private System.Windows.Forms.PictureBox pictureBox1;
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
         private System.Windows.Forms.Label label1;
@@ -588,21 +597,21 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button5;
-        private Bunifu.Framework.UI.BunifuThinButton2 bunifuThinButton22;
-        private Bunifu.Framework.UI.BunifuThinButton2 bunifuThinButton23;
+        private Bunifu.Framework.UI.BunifuThinButton2 Ip11;
+        private Bunifu.Framework.UI.BunifuThinButton2 Ipx;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private Bunifu.Framework.UI.BunifuThinButton2 bunifuThinButton27;
+        private Bunifu.Framework.UI.BunifuThinButton2 Ip3;
         private System.Windows.Forms.PictureBox pictureBox7;
         private System.Windows.Forms.PictureBox pictureBox8;
-        private Bunifu.Framework.UI.BunifuThinButton2 bunifuThinButton28;
-        private Bunifu.Framework.UI.BunifuThinButton2 bunifuThinButton29;
+        private Bunifu.Framework.UI.BunifuThinButton2 Ip4;
+        private Bunifu.Framework.UI.BunifuThinButton2 Ip5;
         private System.Windows.Forms.PictureBox pictureBox9;
-        private Bunifu.Framework.UI.BunifuThinButton2 bunifuThinButton24;
+        private Bunifu.Framework.UI.BunifuThinButton2 Ip6;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox5;
-        private Bunifu.Framework.UI.BunifuThinButton2 bunifuThinButton25;
-        private Bunifu.Framework.UI.BunifuThinButton2 bunifuThinButton26;
+        private Bunifu.Framework.UI.BunifuThinButton2 Ip7;
+        private Bunifu.Framework.UI.BunifuThinButton2 IP8;
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.Label label2;
     }

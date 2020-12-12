@@ -113,6 +113,36 @@
     <Compile Include="Specification.Designer.cs">
       <DependentUpon>Specification.cs</DependentUpon>
     </Compile>
+    <Compile Include="SpecificationApple.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SpecificationApple.Designer.cs">
+      <DependentUpon>SpecificationApple.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SpecificationBlackberry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SpecificationBlackberry.Designer.cs">
+      <DependentUpon>SpecificationBlackberry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SpecificationHuawei.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SpecificationHuawei.Designer.cs">
+      <DependentUpon>SpecificationHuawei.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SpecificationOneplus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SpecificationOneplus.Designer.cs">
+      <DependentUpon>SpecificationOneplus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SpecificationSamsung.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SpecificationSamsung.Designer.cs">
+      <DependentUpon>SpecificationSamsung.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Apple.resx">
       <DependentUpon>Apple.cs</DependentUpon>
     </EmbeddedResource>
@@ -151,6 +181,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Specification.resx">
       <DependentUpon>Specification.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SpecificationApple.resx">
+      <DependentUpon>SpecificationApple.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SpecificationBlackberry.resx">
+      <DependentUpon>SpecificationBlackberry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SpecificationHuawei.resx">
+      <DependentUpon>SpecificationHuawei.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SpecificationOneplus.resx">
+      <DependentUpon>SpecificationOneplus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SpecificationSamsung.resx">
+      <DependentUpon>SpecificationSamsung.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

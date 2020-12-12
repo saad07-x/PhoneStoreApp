@@ -1,6 +1,6 @@
 ﻿namespace StoreProject
 {
-    partial class Specification
+    partial class SpecificationSamsung
     {
         /// <summary>
         /// Required designer variable.
@@ -108,7 +108,6 @@
             this.price.Size = new System.Drawing.Size(301, 36);
             this.price.TabIndex = 7;
             this.price.Text = "bunifuCustomLabel1";
-            this.price.Click += new System.EventHandler(this.price_Click);
             // 
             // disp
             // 
@@ -200,7 +199,6 @@
             this.brand.Size = new System.Drawing.Size(200, 25);
             this.brand.TabIndex = 7;
             this.brand.Text = "bunifuCustomLabel1";
-            this.brand.Click += new System.EventHandler(this.brand_Click);
             // 
             // P
             // 
@@ -282,13 +280,13 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label1.Location = new System.Drawing.Point(330, 16);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(204, 23);
+            this.label1.Size = new System.Drawing.Size(232, 37);
             this.label1.TabIndex = 5;
-            this.label1.Text = "BLACKBERRY PHONES";
+            this.label1.Text = "SPECIFICATION";
             // 
             // bunifuElipse1
             // 
@@ -394,9 +392,8 @@
             this.label2.Size = new System.Drawing.Size(46, 17);
             this.label2.TabIndex = 7;
             this.label2.Text = "label2";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
-            // Specification
+            // SpecificationSamsung
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -410,10 +407,10 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Specification";
+            this.Name = "SpecificationSamsung";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MainMenu";
-            this.Load += new System.EventHandler(this.Specification_Load);
+            this.Load += new System.EventHandler(this.SpecificationSamsung_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);

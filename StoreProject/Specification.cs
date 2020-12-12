@@ -24,14 +24,9 @@ namespace StoreProject
 
         private void Specification_Load(object sender, EventArgs e)
         {
-            brand.Text = Samsung.Brand;
-            model.Text = Samsung.Model;
-            ram.Text = Samsung.Ram;
-            storage.Text = Samsung.Storage;
-            operatingsys.Text = Samsung.Os;
-            megapixel.Text = Samsung.Megepixel;
-            disp.Text = Samsung.Display;
-            price.Text = Samsung.Price;
+ 
+
+
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
@@ -40,6 +35,11 @@ namespace StoreProject
         }
 
         private void price_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void brand_Click(object sender, EventArgs e)
         {
 
         }

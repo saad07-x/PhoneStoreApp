@@ -81,7 +81,7 @@ namespace StoreProject
         private void button2_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Samsung frm2 = new Samsung();
+            Signup frm2 = new Signup();
             frm2.Show();
         }
 
