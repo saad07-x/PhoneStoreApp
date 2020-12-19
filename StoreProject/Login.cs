@@ -63,6 +63,7 @@ namespace StoreProject
             if(drr.HasRows == true)
             {
                 MessageBox.Show("Login Sucess");
+                this.Hide();
                 MainMenu m = new MainMenu();
                 m.Show();
             }

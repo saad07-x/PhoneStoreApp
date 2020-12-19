@@ -33,5 +33,26 @@ namespace StoreProject
             disp.Text = Samsung.Display;
             price.Text = Samsung.Price;
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            MainMenu m = new MainMenu();
+            m.Show();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Contactus c = new Contactus();
+            c.Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Aboutus a = new Aboutus();
+            a.Show();
+        }
     }
 }

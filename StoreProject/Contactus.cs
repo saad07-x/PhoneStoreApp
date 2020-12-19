@@ -10,23 +10,16 @@ using System.Windows.Forms;
 
 namespace StoreProject
 {
-    public partial class SpecificationOneplus : Form
+    public partial class Contactus : Form
     {
-        public SpecificationOneplus()
+        public Contactus()
         {
             InitializeComponent();
         }
 
-        private void SpecificationOneplus_Load(object sender, EventArgs e)
+        private void brand_Click(object sender, EventArgs e)
         {
-            brand.Text = OnePlus.Brand;
-            model.Text = OnePlus.Model;
-            ram.Text = OnePlus.Ram;
-            storage.Text = OnePlus.Storage;
-            operatingsys.Text = OnePlus.Os;
-            megapixel.Text = OnePlus.Megepixel;
-            disp.Text = OnePlus.Display;
-            price.Text = OnePlus.Price;
+
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -36,11 +29,11 @@ namespace StoreProject
             m.Show();
         }
 
-        private void button5_Click(object sender, EventArgs e)
+        private void button3_Click(object sender, EventArgs e)
         {
-            this.Close();
-            Contactus c = new Contactus();
-            c.Show();
+            this.Hide();
+            Products p = new Products();
+            p.Show();
         }
 
         private void button4_Click(object sender, EventArgs e)

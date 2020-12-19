@@ -51,11 +51,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Aboutus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Aboutus.Designer.cs">
+      <DependentUpon>Aboutus.cs</DependentUpon>
+    </Compile>
     <Compile Include="Apple.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Apple.Designer.cs">
       <DependentUpon>Apple.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Appleinfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Appleinfo.Designer.cs">
+      <DependentUpon>Appleinfo.cs</DependentUpon>
     </Compile>
     <Compile Include="Blackberry.cs">
       <SubType>Form</SubType>
@@ -63,11 +75,29 @@
     <Compile Include="Blackberry.Designer.cs">
       <DependentUpon>Blackberry.cs</DependentUpon>
     </Compile>
+    <Compile Include="Blackberryinfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Blackberryinfo.Designer.cs">
+      <DependentUpon>Blackberryinfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Contactus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contactus.Designer.cs">
+      <DependentUpon>Contactus.cs</DependentUpon>
+    </Compile>
     <Compile Include="Huawei.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Huawei.Designer.cs">
       <DependentUpon>Huawei.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Huaweiinfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Huaweiinfo.Designer.cs">
+      <DependentUpon>Huaweiinfo.cs</DependentUpon>
     </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
@@ -87,6 +117,12 @@
     <Compile Include="OnePlus.Designer.cs">
       <DependentUpon>OnePlus.cs</DependentUpon>
     </Compile>
+    <Compile Include="Oneplusinfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Oneplusinfo.Designer.cs">
+      <DependentUpon>Oneplusinfo.cs</DependentUpon>
+    </Compile>
     <Compile Include="Products.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -100,6 +136,12 @@
     </Compile>
     <Compile Include="Samsung.Designer.cs">
       <DependentUpon>Samsung.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Samsunginfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Samsunginfo.Designer.cs">
+      <DependentUpon>Samsunginfo.cs</DependentUpon>
     </Compile>
     <Compile Include="Signup.cs">
       <SubType>Form</SubType>
@@ -143,14 +185,29 @@
     <Compile Include="SpecificationSamsung.Designer.cs">
       <DependentUpon>SpecificationSamsung.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Aboutus.resx">
+      <DependentUpon>Aboutus.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Apple.resx">
       <DependentUpon>Apple.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Appleinfo.resx">
+      <DependentUpon>Appleinfo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Blackberry.resx">
       <DependentUpon>Blackberry.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Blackberryinfo.resx">
+      <DependentUpon>Blackberryinfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contactus.resx">
+      <DependentUpon>Contactus.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Huawei.resx">
       <DependentUpon>Huawei.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Huaweiinfo.resx">
+      <DependentUpon>Huaweiinfo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
@@ -160,6 +217,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="OnePlus.resx">
       <DependentUpon>OnePlus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Oneplusinfo.resx">
+      <DependentUpon>Oneplusinfo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Products.resx">
       <DependentUpon>Products.cs</DependentUpon>
@@ -175,6 +235,9 @@
     </Compile>
     <EmbeddedResource Include="Samsung.resx">
       <DependentUpon>Samsung.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Samsunginfo.resx">
+      <DependentUpon>Samsunginfo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Signup.resx">
       <DependentUpon>Signup.cs</DependentUpon>

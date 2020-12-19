@@ -43,5 +43,12 @@ namespace StoreProject
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            MainMenu m = new MainMenu();
+            m.Show();
+        }
     }
 }

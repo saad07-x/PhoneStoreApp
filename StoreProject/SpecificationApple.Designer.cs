@@ -30,6 +30,7 @@
         {
             this.components = new System.ComponentModel.Container();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button8 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.price = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.disp = new Bunifu.Framework.UI.BunifuCustomLabel();
@@ -61,6 +62,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Black;
+            this.panel1.Controls.Add(this.button8);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.price);
             this.panel1.Controls.Add(this.disp);
@@ -83,6 +85,17 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(848, 890);
             this.panel1.TabIndex = 0;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // button8
+            // 
+            this.button8.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button8.Location = new System.Drawing.Point(212, 512);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(156, 50);
+            this.button8.TabIndex = 10;
+            this.button8.Text = "BUY";
+            this.button8.UseVisualStyleBackColor = true;
             // 
             // label3
             // 
@@ -306,6 +319,7 @@
             this.button1.TabIndex = 1;
             this.button1.Text = "Main Menu";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -352,6 +366,7 @@
             this.button4.TabIndex = 4;
             this.button4.Text = "About Us";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button5
             // 
@@ -367,6 +382,7 @@
             this.button5.TabIndex = 5;
             this.button5.Text = "Contact Us";
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button6
             // 
@@ -445,5 +461,6 @@
         private Bunifu.Framework.UI.BunifuCustomLabel brand;
         private System.Windows.Forms.Label label3;
         private Bunifu.Framework.UI.BunifuCustomLabel disp;
+        private System.Windows.Forms.Button button8;
     }
 }
