@@ -38,7 +38,7 @@ namespace StoreProject
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Products p = new Products();
+            Buy p = new Buy();
             p.Show();
         }
 
@@ -100,6 +100,7 @@ namespace StoreProject
             }
 
             con.Close();
+            this.Hide();
             SpecificationApple specification = new SpecificationApple();
             specification.Show();
         }

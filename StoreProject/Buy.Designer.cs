@@ -1,6 +1,6 @@
 ﻿namespace StoreProject
 {
-    partial class Products
+    partial class Buy
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Products));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Buy));
             this.panel1 = new System.Windows.Forms.Panel();
             this.bunifuThinButton25 = new Bunifu.Framework.UI.BunifuThinButton2();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();

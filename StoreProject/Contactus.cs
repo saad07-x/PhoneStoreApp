@@ -32,7 +32,7 @@ namespace StoreProject
         private void button3_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Products p = new Products();
+            Buy p = new Buy();
             p.Show();
         }
 

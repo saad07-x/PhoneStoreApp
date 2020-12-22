@@ -39,7 +39,7 @@ namespace StoreProject
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Products p = new Products();
+            Buy p = new Buy();
             p.Show();
         }
 
@@ -67,6 +67,249 @@ namespace StoreProject
             this.Hide();
             Aboutus a = new Aboutus();
             a.Show();
+        }
+
+        private void bunifuThinButton21_Click(object sender, EventArgs e)
+        {
+            SqlConnection con = new SqlConnection(cs);
+            con.Open();
+            string query = "select BRAND, MODEL, RAM, STORAGE, OPERATING_SYSTEM, MEGAPIXELS, DISPLAY, PRICE from BLACKBERRY where MODEL = 'KEY2'";
+            SqlCommand cmd = new SqlCommand(query, con);
+            // cmd.Parameters.AddWithValue("@MODEL",S );
+            //cmd.Parameters.AddWithValue("@pass", password.Text);
+
+            SqlDataReader drr = cmd.ExecuteReader();
+            while (drr.Read())
+            {
+                Brand = drr.GetString(0).ToString();
+                Model = drr.GetString(1).ToString();
+                Ram = drr.GetString(2).ToString();
+                Storage = drr.GetString(3).ToString();
+                Os = drr.GetString(4).ToString();
+                Megepixel = drr.GetString(5).ToString();
+                Display = drr.GetString(6).ToString();
+                Price = drr.GetString(7).ToString();
+            }
+
+            con.Close();
+            SpecificationBlackberry specification = new SpecificationBlackberry();
+            specification.Show();
+        }
+
+        private void bunifuThinButton22_Click(object sender, EventArgs e)
+        {
+            SqlConnection con = new SqlConnection(cs);
+            con.Open();
+            string query = "select BRAND, MODEL, RAM, STORAGE, OPERATING_SYSTEM, MEGAPIXELS, DISPLAY, PRICE from BLACKBERRY where MODEL = 'EVOLVE X'";
+            SqlCommand cmd = new SqlCommand(query, con);
+            // cmd.Parameters.AddWithValue("@MODEL",S );
+            //cmd.Parameters.AddWithValue("@pass", password.Text);
+
+            SqlDataReader drr = cmd.ExecuteReader();
+            while (drr.Read())
+            {
+                Brand = drr.GetString(0).ToString();
+                Model = drr.GetString(1).ToString();
+                Ram = drr.GetString(2).ToString();
+                Storage = drr.GetString(3).ToString();
+                Os = drr.GetString(4).ToString();
+                Megepixel = drr.GetString(5).ToString();
+                Display = drr.GetString(6).ToString();
+                Price = drr.GetString(7).ToString();
+            }
+
+            con.Close();
+            SpecificationBlackberry specification = new SpecificationBlackberry();
+            specification.Show();
+        }
+
+        private void bunifuThinButton23_Click(object sender, EventArgs e)
+        {
+            SqlConnection con = new SqlConnection(cs);
+            con.Open();
+            string query = "select BRAND, MODEL, RAM, STORAGE, OPERATING_SYSTEM, MEGAPIXELS, DISPLAY, PRICE from BLACKBERRY where MODEL = 'MOTION'";
+            SqlCommand cmd = new SqlCommand(query, con);
+            // cmd.Parameters.AddWithValue("@MODEL",S );
+            //cmd.Parameters.AddWithValue("@pass", password.Text);
+
+            SqlDataReader drr = cmd.ExecuteReader();
+            while (drr.Read())
+            {
+                Brand = drr.GetString(0).ToString();
+                Model = drr.GetString(1).ToString();
+                Ram = drr.GetString(2).ToString();
+                Storage = drr.GetString(3).ToString();
+                Os = drr.GetString(4).ToString();
+                Megepixel = drr.GetString(5).ToString();
+                Display = drr.GetString(6).ToString();
+                Price = drr.GetString(7).ToString();
+            }
+
+            con.Close();
+            SpecificationBlackberry specification = new SpecificationBlackberry();
+            specification.Show();
+        }
+
+        private void bunifuThinButton26_Click(object sender, EventArgs e)
+        {
+            SqlConnection con = new SqlConnection(cs);
+            con.Open();
+            string query = "select BRAND, MODEL, RAM, STORAGE, OPERATING_SYSTEM, MEGAPIXELS, DISPLAY, PRICE from BLACKBERRY where MODEL = 'AURORA'";
+            SqlCommand cmd = new SqlCommand(query, con);
+            // cmd.Parameters.AddWithValue("@MODEL",S );
+            //cmd.Parameters.AddWithValue("@pass", password.Text);
+
+            SqlDataReader drr = cmd.ExecuteReader();
+            while (drr.Read())
+            {
+                Brand = drr.GetString(0).ToString();
+                Model = drr.GetString(1).ToString();
+                Ram = drr.GetString(2).ToString();
+                Storage = drr.GetString(3).ToString();
+                Os = drr.GetString(4).ToString();
+                Megepixel = drr.GetString(5).ToString();
+                Display = drr.GetString(6).ToString();
+                Price = drr.GetString(7).ToString();
+            }
+
+            con.Close();
+            SpecificationBlackberry specification = new SpecificationBlackberry();
+            specification.Show();
+        }
+
+        private void bunifuThinButton25_Click(object sender, EventArgs e)
+        {
+            SqlConnection con = new SqlConnection(cs);
+            con.Open();
+            string query = "select BRAND, MODEL, RAM, STORAGE, OPERATING_SYSTEM, MEGAPIXELS, DISPLAY, PRICE from BLACKBERRY where MODEL = 'KEYONE'";
+            SqlCommand cmd = new SqlCommand(query, con);
+            // cmd.Parameters.AddWithValue("@MODEL",S );
+            //cmd.Parameters.AddWithValue("@pass", password.Text);
+
+            SqlDataReader drr = cmd.ExecuteReader();
+            while (drr.Read())
+            {
+                Brand = drr.GetString(0).ToString();
+                Model = drr.GetString(1).ToString();
+                Ram = drr.GetString(2).ToString();
+                Storage = drr.GetString(3).ToString();
+                Os = drr.GetString(4).ToString();
+                Megepixel = drr.GetString(5).ToString();
+                Display = drr.GetString(6).ToString();
+                Price = drr.GetString(7).ToString();
+            }
+
+            con.Close();
+            SpecificationBlackberry specification = new SpecificationBlackberry();
+            specification.Show();
+        }
+
+        private void bunifuThinButton24_Click(object sender, EventArgs e)
+        {
+            SqlConnection con = new SqlConnection(cs);
+            con.Open();
+            string query = "select BRAND, MODEL, RAM, STORAGE, OPERATING_SYSTEM, MEGAPIXELS, DISPLAY, PRICE from BLACKBERRY where MODEL = 'PRIV'";
+            SqlCommand cmd = new SqlCommand(query, con);
+            // cmd.Parameters.AddWithValue("@MODEL",S );
+            //cmd.Parameters.AddWithValue("@pass", password.Text);
+
+            SqlDataReader drr = cmd.ExecuteReader();
+            while (drr.Read())
+            {
+                Brand = drr.GetString(0).ToString();
+                Model = drr.GetString(1).ToString();
+                Ram = drr.GetString(2).ToString();
+                Storage = drr.GetString(3).ToString();
+                Os = drr.GetString(4).ToString();
+                Megepixel = drr.GetString(5).ToString();
+                Display = drr.GetString(6).ToString();
+                Price = drr.GetString(7).ToString();
+            }
+
+            con.Close();
+            SpecificationBlackberry specification = new SpecificationBlackberry();
+            specification.Show();
+        }
+
+        private void bunifuThinButton29_Click(object sender, EventArgs e)
+        {
+            SqlConnection con = new SqlConnection(cs);
+            con.Open();
+            string query = "select BRAND, MODEL, RAM, STORAGE, OPERATING_SYSTEM, MEGAPIXELS, DISPLAY, PRICE from BLACKBERRY where MODEL = 'PORSHE DESIGN'";
+            SqlCommand cmd = new SqlCommand(query, con);
+            // cmd.Parameters.AddWithValue("@MODEL",S );
+            //cmd.Parameters.AddWithValue("@pass", password.Text);
+
+            SqlDataReader drr = cmd.ExecuteReader();
+            while (drr.Read())
+            {
+                Brand = drr.GetString(0).ToString();
+                Model = drr.GetString(1).ToString();
+                Ram = drr.GetString(2).ToString();
+                Storage = drr.GetString(3).ToString();
+                Os = drr.GetString(4).ToString();
+                Megepixel = drr.GetString(5).ToString();
+                Display = drr.GetString(6).ToString();
+                Price = drr.GetString(7).ToString();
+            }
+
+            con.Close();
+            SpecificationBlackberry specification = new SpecificationBlackberry();
+            specification.Show();
+        }
+
+        private void bunifuThinButton28_Click(object sender, EventArgs e)
+        {
+            SqlConnection con = new SqlConnection(cs);
+            con.Open();
+            string query = "select BRAND, MODEL, RAM, STORAGE, OPERATING_SYSTEM, MEGAPIXELS, DISPLAY, PRICE from BLACKBERRY where MODEL = 'PASSPORT'";
+            SqlCommand cmd = new SqlCommand(query, con);
+            // cmd.Parameters.AddWithValue("@MODEL",S );
+            //cmd.Parameters.AddWithValue("@pass", password.Text);
+
+            SqlDataReader drr = cmd.ExecuteReader();
+            while (drr.Read())
+            {
+                Brand = drr.GetString(0).ToString();
+                Model = drr.GetString(1).ToString();
+                Ram = drr.GetString(2).ToString();
+                Storage = drr.GetString(3).ToString();
+                Os = drr.GetString(4).ToString();
+                Megepixel = drr.GetString(5).ToString();
+                Display = drr.GetString(6).ToString();
+                Price = drr.GetString(7).ToString();
+            }
+
+            con.Close();
+            SpecificationBlackberry specification = new SpecificationBlackberry();
+            specification.Show();
+        }
+
+        private void bunifuThinButton27_Click(object sender, EventArgs e)
+        {
+            SqlConnection con = new SqlConnection(cs);
+            con.Open();
+            string query = "select BRAND, MODEL, RAM, STORAGE, OPERATING_SYSTEM, MEGAPIXELS, DISPLAY, PRICE from BLACKBERRY where MODEL = 'Z3'";
+            SqlCommand cmd = new SqlCommand(query, con);
+            // cmd.Parameters.AddWithValue("@MODEL",S );
+            //cmd.Parameters.AddWithValue("@pass", password.Text);
+
+            SqlDataReader drr = cmd.ExecuteReader();
+            while (drr.Read())
+            {
+                Brand = drr.GetString(0).ToString();
+                Model = drr.GetString(1).ToString();
+                Ram = drr.GetString(2).ToString();
+                Storage = drr.GetString(3).ToString();
+                Os = drr.GetString(4).ToString();
+                Megepixel = drr.GetString(5).ToString();
+                Display = drr.GetString(6).ToString();
+                Price = drr.GetString(7).ToString();
+            }
+
+            con.Close();
+            SpecificationBlackberry specification = new SpecificationBlackberry();
+            specification.Show();
         }
     }
 }

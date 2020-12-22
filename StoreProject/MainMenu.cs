@@ -26,7 +26,7 @@ namespace StoreProject
         {
             this.Hide();
            
-            Products p = new Products();
+            Buy p = new Buy();
             p.Show();
         }
 

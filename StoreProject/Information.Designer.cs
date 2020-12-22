@@ -1,6 +1,6 @@
 ﻿namespace StoreProject
 {
-    partial class Blackberryinfo
+    partial class Information
     {
         /// <summary>
         /// Required designer variable.
@@ -91,6 +91,7 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(848, 890);
             this.panel1.TabIndex = 0;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // confirmbtn
             // 
@@ -131,6 +132,7 @@
             this.nametxtbox.Size = new System.Drawing.Size(370, 40);
             this.nametxtbox.TabIndex = 8;
             this.nametxtbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.nametxtbox.OnValueChanged += new System.EventHandler(this.bunifuMetroTextbox2_OnValueChanged);
             // 
             // housetxtbox
             // 
@@ -149,6 +151,7 @@
             this.housetxtbox.Size = new System.Drawing.Size(370, 40);
             this.housetxtbox.TabIndex = 8;
             this.housetxtbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.housetxtbox.OnValueChanged += new System.EventHandler(this.bunifuMetroTextbox2_OnValueChanged);
             // 
             // contactbox
             // 
@@ -167,6 +170,7 @@
             this.contactbox.Size = new System.Drawing.Size(666, 63);
             this.contactbox.TabIndex = 8;
             this.contactbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.contactbox.OnValueChanged += new System.EventHandler(this.bunifuMetroTextbox2_OnValueChanged);
             // 
             // streettxtbox
             // 
@@ -185,6 +189,7 @@
             this.streettxtbox.Size = new System.Drawing.Size(370, 40);
             this.streettxtbox.TabIndex = 8;
             this.streettxtbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.streettxtbox.OnValueChanged += new System.EventHandler(this.bunifuMetroTextbox2_OnValueChanged);
             // 
             // email
             // 
@@ -203,6 +208,7 @@
             this.email.Size = new System.Drawing.Size(370, 40);
             this.email.TabIndex = 8;
             this.email.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.email.OnValueChanged += new System.EventHandler(this.bunifuMetroTextbox2_OnValueChanged);
             // 
             // contact
             // 
@@ -221,6 +227,7 @@
             this.contact.Size = new System.Drawing.Size(370, 40);
             this.contact.TabIndex = 8;
             this.contact.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.contact.OnValueChanged += new System.EventHandler(this.bunifuMetroTextbox2_OnValueChanged);
             // 
             // emailbox
             // 
@@ -239,6 +246,7 @@
             this.emailbox.Size = new System.Drawing.Size(666, 63);
             this.emailbox.TabIndex = 8;
             this.emailbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.emailbox.OnValueChanged += new System.EventHandler(this.bunifuMetroTextbox2_OnValueChanged);
             // 
             // areatxtbox
             // 
@@ -257,6 +265,7 @@
             this.areatxtbox.Size = new System.Drawing.Size(370, 40);
             this.areatxtbox.TabIndex = 8;
             this.areatxtbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.areatxtbox.OnValueChanged += new System.EventHandler(this.bunifuMetroTextbox2_OnValueChanged);
             // 
             // citytxtbox
             // 
@@ -286,6 +295,7 @@
             this.label10.Size = new System.Drawing.Size(168, 38);
             this.label10.TabIndex = 6;
             this.label10.Text = "Full Name:";
+            this.label10.Click += new System.EventHandler(this.label10_Click);
             // 
             // countrydrop
             // 
@@ -309,6 +319,7 @@
             this.countrydrop.selectedIndex = 0;
             this.countrydrop.Size = new System.Drawing.Size(370, 36);
             this.countrydrop.TabIndex = 7;
+            this.countrydrop.onItemSelected += new System.EventHandler(this.bunifuDropdown1_onItemSelected);
             // 
             // label9
             // 
@@ -506,7 +517,7 @@
             this.label2.TabIndex = 7;
             this.label2.Text = "label2";
             // 
-            // Blackberryinfo
+            // Appleinfo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -520,9 +531,10 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Blackberryinfo";
+            this.Name = "Appleinfo";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MainMenu";
+            this.Load += new System.EventHandler(this.Appleinfo_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);

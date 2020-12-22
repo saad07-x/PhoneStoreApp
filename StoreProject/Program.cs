@@ -16,7 +16,7 @@ namespace StoreProject
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Appleinfo());
+            Application.Run(new Sell());
         }
     }
 }

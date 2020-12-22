@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace StoreProject
 {
-    public partial class Products : Form
+    public partial class Buy : Form
     {
-        public Products()
+        public Buy()
         {
             InitializeComponent();
         }

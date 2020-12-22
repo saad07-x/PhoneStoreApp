@@ -1,6 +1,6 @@
 ﻿namespace StoreProject
 {
-    partial class Specification
+    partial class Reciept
     {
         /// <summary>
         /// Required designer variable.
@@ -29,23 +29,20 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Reciept));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label3 = new System.Windows.Forms.Label();
-            this.price = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.disp = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.megapixel = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.operatingsys = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.storage = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.ram = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.model = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.brand = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel1 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.total = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel2 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.tax = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.pricee = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.P = new System.Windows.Forms.Label();
-            this.MP = new System.Windows.Forms.Label();
-            this.O = new System.Windows.Forms.Label();
-            this.S = new System.Windows.Forms.Label();
+            this.t = new System.Windows.Forms.Label();
             this.R = new System.Windows.Forms.Label();
-            this.M = new System.Windows.Forms.Label();
-            this.B = new System.Windows.Forms.Label();
+            this.Namee = new System.Windows.Forms.Label();
+            this.qty = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.button1 = new System.Windows.Forms.Button();
@@ -55,28 +52,28 @@
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
+            this.mainbtn = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.ex = new Bunifu.Framework.UI.BunifuThinButton2();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Black;
-            this.panel1.Controls.Add(this.label3);
-            this.panel1.Controls.Add(this.price);
-            this.panel1.Controls.Add(this.disp);
-            this.panel1.Controls.Add(this.megapixel);
-            this.panel1.Controls.Add(this.operatingsys);
-            this.panel1.Controls.Add(this.storage);
+            this.panel1.Controls.Add(this.ex);
+            this.panel1.Controls.Add(this.mainbtn);
             this.panel1.Controls.Add(this.ram);
             this.panel1.Controls.Add(this.model);
-            this.panel1.Controls.Add(this.brand);
+            this.panel1.Controls.Add(this.bunifuCustomLabel1);
+            this.panel1.Controls.Add(this.total);
+            this.panel1.Controls.Add(this.bunifuCustomLabel2);
+            this.panel1.Controls.Add(this.tax);
+            this.panel1.Controls.Add(this.pricee);
             this.panel1.Controls.Add(this.P);
-            this.panel1.Controls.Add(this.MP);
-            this.panel1.Controls.Add(this.O);
-            this.panel1.Controls.Add(this.S);
+            this.panel1.Controls.Add(this.t);
             this.panel1.Controls.Add(this.R);
-            this.panel1.Controls.Add(this.M);
-            this.panel1.Controls.Add(this.B);
+            this.panel1.Controls.Add(this.Namee);
+            this.panel1.Controls.Add(this.qty);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Right;
             this.panel1.Location = new System.Drawing.Point(254, 0);
@@ -85,83 +82,6 @@
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label3.Location = new System.Drawing.Point(95, 384);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(85, 23);
-            this.label3.TabIndex = 8;
-            this.label3.Text = "Display:";
-            // 
-            // price
-            // 
-            this.price.AutoSize = true;
-            this.price.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.price.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.price.Font = new System.Drawing.Font("Century Gothic", 16.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.price.ForeColor = System.Drawing.Color.Silver;
-            this.price.Location = new System.Drawing.Point(212, 428);
-            this.price.Name = "price";
-            this.price.Size = new System.Drawing.Size(301, 36);
-            this.price.TabIndex = 7;
-            this.price.Text = "bunifuCustomLabel1";
-            this.price.Click += new System.EventHandler(this.price_Click);
-            // 
-            // disp
-            // 
-            this.disp.AutoSize = true;
-            this.disp.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.disp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.disp.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.disp.ForeColor = System.Drawing.Color.Silver;
-            this.disp.Location = new System.Drawing.Point(189, 382);
-            this.disp.Name = "disp";
-            this.disp.Size = new System.Drawing.Size(200, 25);
-            this.disp.TabIndex = 7;
-            this.disp.Text = "bunifuCustomLabel1";
-            // 
-            // megapixel
-            // 
-            this.megapixel.AutoSize = true;
-            this.megapixel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.megapixel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.megapixel.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.megapixel.ForeColor = System.Drawing.Color.Silver;
-            this.megapixel.Location = new System.Drawing.Point(221, 340);
-            this.megapixel.Name = "megapixel";
-            this.megapixel.Size = new System.Drawing.Size(200, 25);
-            this.megapixel.TabIndex = 7;
-            this.megapixel.Text = "bunifuCustomLabel1";
-            // 
-            // operatingsys
-            // 
-            this.operatingsys.AutoSize = true;
-            this.operatingsys.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.operatingsys.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.operatingsys.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.operatingsys.ForeColor = System.Drawing.Color.Silver;
-            this.operatingsys.Location = new System.Drawing.Point(292, 302);
-            this.operatingsys.Name = "operatingsys";
-            this.operatingsys.Size = new System.Drawing.Size(200, 25);
-            this.operatingsys.TabIndex = 7;
-            this.operatingsys.Text = "bunifuCustomLabel1";
-            // 
-            // storage
-            // 
-            this.storage.AutoSize = true;
-            this.storage.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.storage.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.storage.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.storage.ForeColor = System.Drawing.Color.Silver;
-            this.storage.Location = new System.Drawing.Point(189, 262);
-            this.storage.Name = "storage";
-            this.storage.Size = new System.Drawing.Size(200, 25);
-            this.storage.TabIndex = 7;
-            this.storage.Text = "bunifuCustomLabel1";
-            // 
             // ram
             // 
             this.ram.AutoSize = true;
@@ -169,11 +89,11 @@
             this.ram.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ram.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ram.ForeColor = System.Drawing.Color.Silver;
-            this.ram.Location = new System.Drawing.Point(167, 220);
+            this.ram.Location = new System.Drawing.Point(104, 184);
             this.ram.Name = "ram";
-            this.ram.Size = new System.Drawing.Size(200, 25);
+            this.ram.Size = new System.Drawing.Size(23, 25);
             this.ram.TabIndex = 7;
-            this.ram.Text = "bunifuCustomLabel1";
+            this.ram.Text = "1";
             // 
             // model
             // 
@@ -182,113 +102,142 @@
             this.model.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.model.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.model.ForeColor = System.Drawing.Color.Silver;
-            this.model.Location = new System.Drawing.Point(183, 176);
+            this.model.Location = new System.Drawing.Point(245, 184);
             this.model.Name = "model";
-            this.model.Size = new System.Drawing.Size(200, 25);
+            this.model.Size = new System.Drawing.Size(105, 25);
             this.model.TabIndex = 7;
-            this.model.Text = "bunifuCustomLabel1";
+            this.model.Text = "Galaxy s8";
             // 
-            // brand
+            // bunifuCustomLabel1
             // 
-            this.brand.AutoSize = true;
-            this.brand.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.brand.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.brand.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.brand.ForeColor = System.Drawing.Color.Silver;
-            this.brand.Location = new System.Drawing.Point(183, 134);
-            this.brand.Name = "brand";
-            this.brand.Size = new System.Drawing.Size(200, 25);
-            this.brand.TabIndex = 7;
-            this.brand.Text = "bunifuCustomLabel1";
-            this.brand.Click += new System.EventHandler(this.brand_Click);
+            this.bunifuCustomLabel1.AutoSize = true;
+            this.bunifuCustomLabel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.bunifuCustomLabel1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bunifuCustomLabel1.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel1.ForeColor = System.Drawing.Color.Silver;
+            this.bunifuCustomLabel1.Location = new System.Drawing.Point(481, 418);
+            this.bunifuCustomLabel1.Name = "bunifuCustomLabel1";
+            this.bunifuCustomLabel1.Size = new System.Drawing.Size(60, 39);
+            this.bunifuCustomLabel1.TabIndex = 7;
+            this.bunifuCustomLabel1.Text = "RS:";
+            // 
+            // total
+            // 
+            this.total.AutoSize = true;
+            this.total.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.total.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.total.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.total.ForeColor = System.Drawing.Color.Silver;
+            this.total.Location = new System.Drawing.Point(547, 418);
+            this.total.Name = "total";
+            this.total.Size = new System.Drawing.Size(121, 39);
+            this.total.TabIndex = 7;
+            this.total.Text = "123000";
+            // 
+            // bunifuCustomLabel2
+            // 
+            this.bunifuCustomLabel2.AutoSize = true;
+            this.bunifuCustomLabel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.bunifuCustomLabel2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bunifuCustomLabel2.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel2.ForeColor = System.Drawing.Color.Silver;
+            this.bunifuCustomLabel2.Location = new System.Drawing.Point(505, 364);
+            this.bunifuCustomLabel2.Name = "bunifuCustomLabel2";
+            this.bunifuCustomLabel2.Size = new System.Drawing.Size(36, 25);
+            this.bunifuCustomLabel2.TabIndex = 7;
+            this.bunifuCustomLabel2.Text = "Rs:";
+            // 
+            // tax
+            // 
+            this.tax.AutoSize = true;
+            this.tax.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.tax.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.tax.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tax.ForeColor = System.Drawing.Color.Silver;
+            this.tax.Location = new System.Drawing.Point(547, 364);
+            this.tax.Name = "tax";
+            this.tax.Size = new System.Drawing.Size(200, 25);
+            this.tax.TabIndex = 7;
+            this.tax.Text = "bunifuCustomLabel1";
+            // 
+            // pricee
+            // 
+            this.pricee.AutoSize = true;
+            this.pricee.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pricee.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.pricee.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pricee.ForeColor = System.Drawing.Color.Silver;
+            this.pricee.Location = new System.Drawing.Point(526, 184);
+            this.pricee.Name = "pricee";
+            this.pricee.Size = new System.Drawing.Size(200, 25);
+            this.pricee.TabIndex = 7;
+            this.pricee.Text = "bunifuCustomLabel1";
             // 
             // P
             // 
             this.P.AutoSize = true;
             this.P.Font = new System.Drawing.Font("Century Gothic", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.P.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.P.Location = new System.Drawing.Point(92, 428);
+            this.P.Location = new System.Drawing.Point(123, 419);
             this.P.Name = "P";
-            this.P.Size = new System.Drawing.Size(97, 38);
+            this.P.Size = new System.Drawing.Size(93, 38);
             this.P.TabIndex = 6;
-            this.P.Text = "Price:";
+            this.P.Text = "Total:";
             // 
-            // MP
+            // t
             // 
-            this.MP.AutoSize = true;
-            this.MP.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.MP.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.MP.Location = new System.Drawing.Point(92, 342);
-            this.MP.Name = "MP";
-            this.MP.Size = new System.Drawing.Size(123, 23);
-            this.MP.TabIndex = 6;
-            this.MP.Text = "Megapixel: ";
-            // 
-            // O
-            // 
-            this.O.AutoSize = true;
-            this.O.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.O.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.O.Location = new System.Drawing.Point(92, 304);
-            this.O.Name = "O";
-            this.O.Size = new System.Drawing.Size(194, 23);
-            this.O.TabIndex = 6;
-            this.O.Text = "Operating System: ";
-            // 
-            // S
-            // 
-            this.S.AutoSize = true;
-            this.S.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.S.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.S.Location = new System.Drawing.Point(92, 264);
-            this.S.Name = "S";
-            this.S.Size = new System.Drawing.Size(91, 23);
-            this.S.TabIndex = 6;
-            this.S.Text = "Storage:";
+            this.t.AutoSize = true;
+            this.t.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.t.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.t.Location = new System.Drawing.Point(126, 366);
+            this.t.Name = "t";
+            this.t.Size = new System.Drawing.Size(94, 23);
+            this.t.TabIndex = 6;
+            this.t.Text = "Tax (5%):";
             // 
             // R
             // 
             this.R.AutoSize = true;
             this.R.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.R.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.R.Location = new System.Drawing.Point(92, 222);
+            this.R.Location = new System.Drawing.Point(522, 144);
             this.R.Name = "R";
-            this.R.Size = new System.Drawing.Size(69, 23);
+            this.R.Size = new System.Drawing.Size(57, 23);
             this.R.TabIndex = 6;
-            this.R.Text = "R.A.M:";
+            this.R.Text = "Price";
             // 
-            // M
+            // Namee
             // 
-            this.M.AutoSize = true;
-            this.M.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.M.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.M.Location = new System.Drawing.Point(92, 175);
-            this.M.Name = "M";
-            this.M.Size = new System.Drawing.Size(77, 23);
-            this.M.TabIndex = 6;
-            this.M.Text = "Model:";
+            this.Namee.AutoSize = true;
+            this.Namee.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Namee.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.Namee.Location = new System.Drawing.Point(241, 144);
+            this.Namee.Name = "Namee";
+            this.Namee.Size = new System.Drawing.Size(87, 23);
+            this.Namee.TabIndex = 6;
+            this.Namee.Text = "Product";
             // 
-            // B
+            // qty
             // 
-            this.B.AutoSize = true;
-            this.B.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.B.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.B.Location = new System.Drawing.Point(92, 133);
-            this.B.Name = "B";
-            this.B.Size = new System.Drawing.Size(72, 23);
-            this.B.TabIndex = 6;
-            this.B.Text = "Brand:";
+            this.qty.AutoSize = true;
+            this.qty.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.qty.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.qty.Location = new System.Drawing.Point(100, 144);
+            this.qty.Name = "qty";
+            this.qty.Size = new System.Drawing.Size(45, 23);
+            this.qty.TabIndex = 6;
+            this.qty.Text = "Qty";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label1.Location = new System.Drawing.Point(330, 16);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(204, 23);
+            this.label1.Size = new System.Drawing.Size(127, 37);
             this.label1.TabIndex = 5;
-            this.label1.Text = "BLACKBERRY PHONES";
+            this.label1.Text = "RECIEPT";
             // 
             // bunifuElipse1
             // 
@@ -309,7 +258,6 @@
             this.button1.TabIndex = 1;
             this.button1.Text = "Main Menu";
             this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -395,9 +343,60 @@
             this.label2.Size = new System.Drawing.Size(46, 17);
             this.label2.TabIndex = 7;
             this.label2.Text = "label2";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
-            // Specification
+            // mainbtn
+            // 
+            this.mainbtn.ActiveBorderThickness = 1;
+            this.mainbtn.ActiveCornerRadius = 20;
+            this.mainbtn.ActiveFillColor = System.Drawing.Color.Black;
+            this.mainbtn.ActiveForecolor = System.Drawing.Color.White;
+            this.mainbtn.ActiveLineColor = System.Drawing.Color.Black;
+            this.mainbtn.BackColor = System.Drawing.Color.Black;
+            this.mainbtn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("mainbtn.BackgroundImage")));
+            this.mainbtn.ButtonText = "Return to Main Menu";
+            this.mainbtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.mainbtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mainbtn.ForeColor = System.Drawing.Color.Black;
+            this.mainbtn.IdleBorderThickness = 1;
+            this.mainbtn.IdleCornerRadius = 20;
+            this.mainbtn.IdleFillColor = System.Drawing.Color.White;
+            this.mainbtn.IdleForecolor = System.Drawing.Color.Black;
+            this.mainbtn.IdleLineColor = System.Drawing.Color.Black;
+            this.mainbtn.Location = new System.Drawing.Point(130, 556);
+            this.mainbtn.Margin = new System.Windows.Forms.Padding(5);
+            this.mainbtn.Name = "mainbtn";
+            this.mainbtn.Size = new System.Drawing.Size(253, 67);
+            this.mainbtn.TabIndex = 8;
+            this.mainbtn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.mainbtn.Click += new System.EventHandler(this.mainbtn_Click);
+            // 
+            // ex
+            // 
+            this.ex.ActiveBorderThickness = 1;
+            this.ex.ActiveCornerRadius = 20;
+            this.ex.ActiveFillColor = System.Drawing.Color.Black;
+            this.ex.ActiveForecolor = System.Drawing.Color.Red;
+            this.ex.ActiveLineColor = System.Drawing.Color.Black;
+            this.ex.BackColor = System.Drawing.Color.Black;
+            this.ex.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("ex.BackgroundImage")));
+            this.ex.ButtonText = "Exit";
+            this.ex.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ex.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ex.ForeColor = System.Drawing.Color.Black;
+            this.ex.IdleBorderThickness = 1;
+            this.ex.IdleCornerRadius = 20;
+            this.ex.IdleFillColor = System.Drawing.Color.Red;
+            this.ex.IdleForecolor = System.Drawing.Color.Black;
+            this.ex.IdleLineColor = System.Drawing.Color.Black;
+            this.ex.Location = new System.Drawing.Point(526, 556);
+            this.ex.Margin = new System.Windows.Forms.Padding(5);
+            this.ex.Name = "ex";
+            this.ex.Size = new System.Drawing.Size(154, 67);
+            this.ex.TabIndex = 8;
+            this.ex.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.ex.Click += new System.EventHandler(this.mainbtn_Click);
+            // 
+            // Reciept
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -411,10 +410,10 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Specification";
+            this.Name = "Reciept";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MainMenu";
-            this.Load += new System.EventHandler(this.Specification_Load);
+            this.Load += new System.EventHandler(this.Reciept_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
@@ -434,21 +433,19 @@
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label O;
-        private System.Windows.Forms.Label S;
+        private System.Windows.Forms.Label t;
         private System.Windows.Forms.Label R;
-        private System.Windows.Forms.Label M;
-        private System.Windows.Forms.Label B;
+        private System.Windows.Forms.Label Namee;
+        private System.Windows.Forms.Label qty;
         private System.Windows.Forms.Label P;
-        private System.Windows.Forms.Label MP;
-        private Bunifu.Framework.UI.BunifuCustomLabel price;
-        private Bunifu.Framework.UI.BunifuCustomLabel megapixel;
-        private Bunifu.Framework.UI.BunifuCustomLabel operatingsys;
-        private Bunifu.Framework.UI.BunifuCustomLabel storage;
         private Bunifu.Framework.UI.BunifuCustomLabel ram;
         private Bunifu.Framework.UI.BunifuCustomLabel model;
-        private Bunifu.Framework.UI.BunifuCustomLabel brand;
-        private System.Windows.Forms.Label label3;
-        private Bunifu.Framework.UI.BunifuCustomLabel disp;
+        private Bunifu.Framework.UI.BunifuCustomLabel pricee;
+        private Bunifu.Framework.UI.BunifuCustomLabel tax;
+        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel1;
+        private Bunifu.Framework.UI.BunifuCustomLabel total;
+        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel2;
+        private Bunifu.Framework.UI.BunifuThinButton2 mainbtn;
+        private Bunifu.Framework.UI.BunifuThinButton2 ex;
     }
 }

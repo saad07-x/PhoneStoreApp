@@ -54,5 +54,14 @@ namespace StoreProject
             Aboutus a = new Aboutus();
             a.Show();
         }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            int pricepass = int.Parse(price.Text);
+            //Convert.ToInt32(this.price.Text);
+            this.Hide();
+            Information r = new Information(model.Text, price.Text);
+            r.Show();
+        }
     }
 }
