@@ -30,6 +30,7 @@
         {
             this.components = new System.ComponentModel.Container();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button8 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.price = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.disp = new Bunifu.Framework.UI.BunifuCustomLabel();
@@ -54,8 +55,6 @@
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
-            this.button8 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -85,6 +84,17 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(848, 890);
             this.panel1.TabIndex = 0;
+            // 
+            // button8
+            // 
+            this.button8.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button8.Location = new System.Drawing.Point(265, 534);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(156, 50);
+            this.button8.TabIndex = 13;
+            this.button8.Text = "BUY";
+            this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // label3
             // 
@@ -388,32 +398,11 @@
             this.button6.Text = "Settings";
             this.button6.UseVisualStyleBackColor = false;
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(58, 43);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(46, 17);
-            this.label2.TabIndex = 7;
-            this.label2.Text = "label2";
-            // 
-            // button8
-            // 
-            this.button8.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button8.Location = new System.Drawing.Point(265, 534);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(156, 50);
-            this.button8.TabIndex = 13;
-            this.button8.Text = "BUY";
-            this.button8.UseVisualStyleBackColor = true;
-            this.button8.Click += new System.EventHandler(this.button8_Click);
-            // 
             // SpecificationOneplus
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1102, 890);
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
@@ -429,7 +418,6 @@
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -444,7 +432,6 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label O;
         private System.Windows.Forms.Label S;
         private System.Windows.Forms.Label R;

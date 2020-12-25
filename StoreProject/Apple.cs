@@ -65,6 +65,7 @@ namespace StoreProject
             }
 
             con.Close();
+            this.Hide();
             SpecificationApple specification = new SpecificationApple();
             specification.Show();
         }
@@ -133,6 +134,7 @@ namespace StoreProject
             }
 
             con.Close();
+            this.Hide();
             SpecificationApple specification = new SpecificationApple();
             specification.Show();
         }
@@ -160,6 +162,7 @@ namespace StoreProject
             }
 
             con.Close();
+            this.Hide();
             SpecificationApple specification = new SpecificationApple();
             specification.Show();
         }
@@ -187,6 +190,7 @@ namespace StoreProject
             }
 
             con.Close();
+            this.Hide();
             SpecificationApple specification = new SpecificationApple();
             specification.Show();
         }
@@ -214,6 +218,7 @@ namespace StoreProject
             }
 
             con.Close();
+            this.Hide();
             SpecificationApple specification = new SpecificationApple();
             specification.Show();
         }
@@ -241,6 +246,7 @@ namespace StoreProject
             }
 
             con.Close();
+            this.Hide();
             SpecificationApple specification = new SpecificationApple();
             specification.Show();
         }
@@ -268,6 +274,7 @@ namespace StoreProject
             }
 
             con.Close();
+            this.Hide();
             SpecificationApple specification = new SpecificationApple();
             specification.Show();
         }
@@ -295,6 +302,8 @@ namespace StoreProject
             }
 
             con.Close();
+            this.Hide();
+            this.Hide();    
             SpecificationApple specification = new SpecificationApple();
             specification.Show();
         }

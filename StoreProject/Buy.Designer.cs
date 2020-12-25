@@ -31,6 +31,8 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Buy));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.bunifuThinButton26 = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.bunifuThinButton25 = new Bunifu.Framework.UI.BunifuThinButton2();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.bunifuThinButton24 = new Bunifu.Framework.UI.BunifuThinButton2();
@@ -50,6 +52,7 @@
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -60,6 +63,8 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Black;
+            this.panel1.Controls.Add(this.bunifuThinButton26);
+            this.panel1.Controls.Add(this.pictureBox6);
             this.panel1.Controls.Add(this.bunifuThinButton25);
             this.panel1.Controls.Add(this.pictureBox5);
             this.panel1.Controls.Add(this.bunifuThinButton24);
@@ -78,6 +83,43 @@
             this.panel1.Size = new System.Drawing.Size(848, 668);
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // bunifuThinButton26
+            // 
+            this.bunifuThinButton26.ActiveBorderThickness = 1;
+            this.bunifuThinButton26.ActiveCornerRadius = 20;
+            this.bunifuThinButton26.ActiveFillColor = System.Drawing.Color.Silver;
+            this.bunifuThinButton26.ActiveForecolor = System.Drawing.Color.White;
+            this.bunifuThinButton26.ActiveLineColor = System.Drawing.Color.Silver;
+            this.bunifuThinButton26.BackColor = System.Drawing.Color.Black;
+            this.bunifuThinButton26.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton26.BackgroundImage")));
+            this.bunifuThinButton26.ButtonText = "USED";
+            this.bunifuThinButton26.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuThinButton26.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuThinButton26.ForeColor = System.Drawing.Color.SeaGreen;
+            this.bunifuThinButton26.IdleBorderThickness = 3;
+            this.bunifuThinButton26.IdleCornerRadius = 20;
+            this.bunifuThinButton26.IdleFillColor = System.Drawing.Color.Black;
+            this.bunifuThinButton26.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.bunifuThinButton26.IdleLineColor = System.Drawing.Color.Silver;
+            this.bunifuThinButton26.Location = new System.Drawing.Point(584, 504);
+            this.bunifuThinButton26.Margin = new System.Windows.Forms.Padding(5);
+            this.bunifuThinButton26.Name = "bunifuThinButton26";
+            this.bunifuThinButton26.Size = new System.Drawing.Size(163, 48);
+            this.bunifuThinButton26.TabIndex = 13;
+            this.bunifuThinButton26.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.bunifuThinButton26.Click += new System.EventHandler(this.bunifuThinButton26_Click);
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
+            this.pictureBox6.Location = new System.Drawing.Point(584, 386);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(163, 101);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox6.TabIndex = 12;
+            this.pictureBox6.TabStop = false;
             // 
             // bunifuThinButton25
             // 
@@ -371,7 +413,7 @@
             this.button5.UseVisualStyleBackColor = false;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
-            // Products
+            // Buy
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -384,11 +426,12 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Products";
+            this.Name = "Buy";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MainMenu";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
@@ -419,5 +462,7 @@
         private Bunifu.Framework.UI.BunifuThinButton2 bunifuThinButton23;
         private System.Windows.Forms.PictureBox pictureBox4;
         private Bunifu.Framework.UI.BunifuThinButton2 bunifuThinButton25;
+        private Bunifu.Framework.UI.BunifuThinButton2 bunifuThinButton26;
+        private System.Windows.Forms.PictureBox pictureBox6;
     }
 }

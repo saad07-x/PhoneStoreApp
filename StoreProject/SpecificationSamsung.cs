@@ -36,7 +36,7 @@ namespace StoreProject
 
         private void button1_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            this.Close();
             MainMenu m = new MainMenu();
             m.Show();
         }
@@ -50,7 +50,7 @@ namespace StoreProject
 
         private void button4_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            this.Close();
             Aboutus a = new Aboutus();
             a.Show();
         }
@@ -59,7 +59,7 @@ namespace StoreProject
         {
             int pricepass = int.Parse(price.Text);
             //Convert.ToInt32(this.price.Text);
-            this.Hide();
+            this.Close();
             Information r = new Information(model.Text, price.Text);
             r.Show();
         }

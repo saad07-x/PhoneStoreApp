@@ -31,6 +31,8 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Reciept));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.ex = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.mainbtn = new Bunifu.Framework.UI.BunifuThinButton2();
             this.ram = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.model = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel1 = new Bunifu.Framework.UI.BunifuCustomLabel();
@@ -51,9 +53,6 @@
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
-            this.mainbtn = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.ex = new Bunifu.Framework.UI.BunifuThinButton2();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -82,6 +81,58 @@
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
+            // ex
+            // 
+            this.ex.ActiveBorderThickness = 1;
+            this.ex.ActiveCornerRadius = 20;
+            this.ex.ActiveFillColor = System.Drawing.Color.Black;
+            this.ex.ActiveForecolor = System.Drawing.Color.Red;
+            this.ex.ActiveLineColor = System.Drawing.Color.Black;
+            this.ex.BackColor = System.Drawing.Color.Black;
+            this.ex.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("ex.BackgroundImage")));
+            this.ex.ButtonText = "Exit";
+            this.ex.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ex.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ex.ForeColor = System.Drawing.Color.Black;
+            this.ex.IdleBorderThickness = 1;
+            this.ex.IdleCornerRadius = 20;
+            this.ex.IdleFillColor = System.Drawing.Color.Red;
+            this.ex.IdleForecolor = System.Drawing.Color.Black;
+            this.ex.IdleLineColor = System.Drawing.Color.Black;
+            this.ex.Location = new System.Drawing.Point(526, 556);
+            this.ex.Margin = new System.Windows.Forms.Padding(5);
+            this.ex.Name = "ex";
+            this.ex.Size = new System.Drawing.Size(154, 67);
+            this.ex.TabIndex = 8;
+            this.ex.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.ex.Click += new System.EventHandler(this.mainbtn_Click);
+            // 
+            // mainbtn
+            // 
+            this.mainbtn.ActiveBorderThickness = 1;
+            this.mainbtn.ActiveCornerRadius = 20;
+            this.mainbtn.ActiveFillColor = System.Drawing.Color.Black;
+            this.mainbtn.ActiveForecolor = System.Drawing.Color.White;
+            this.mainbtn.ActiveLineColor = System.Drawing.Color.Black;
+            this.mainbtn.BackColor = System.Drawing.Color.Black;
+            this.mainbtn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("mainbtn.BackgroundImage")));
+            this.mainbtn.ButtonText = "Return to Main Menu";
+            this.mainbtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.mainbtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mainbtn.ForeColor = System.Drawing.Color.Black;
+            this.mainbtn.IdleBorderThickness = 1;
+            this.mainbtn.IdleCornerRadius = 20;
+            this.mainbtn.IdleFillColor = System.Drawing.Color.White;
+            this.mainbtn.IdleForecolor = System.Drawing.Color.Black;
+            this.mainbtn.IdleLineColor = System.Drawing.Color.Black;
+            this.mainbtn.Location = new System.Drawing.Point(130, 556);
+            this.mainbtn.Margin = new System.Windows.Forms.Padding(5);
+            this.mainbtn.Name = "mainbtn";
+            this.mainbtn.Size = new System.Drawing.Size(253, 67);
+            this.mainbtn.TabIndex = 8;
+            this.mainbtn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.mainbtn.Click += new System.EventHandler(this.mainbtn_Click);
+            // 
             // ram
             // 
             this.ram.AutoSize = true;
@@ -89,7 +140,7 @@
             this.ram.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ram.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ram.ForeColor = System.Drawing.Color.Silver;
-            this.ram.Location = new System.Drawing.Point(104, 184);
+            this.ram.Location = new System.Drawing.Point(216, 144);
             this.ram.Name = "ram";
             this.ram.Size = new System.Drawing.Size(23, 25);
             this.ram.TabIndex = 7;
@@ -102,7 +153,7 @@
             this.model.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.model.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.model.ForeColor = System.Drawing.Color.Silver;
-            this.model.Location = new System.Drawing.Point(245, 184);
+            this.model.Location = new System.Drawing.Point(216, 187);
             this.model.Name = "model";
             this.model.Size = new System.Drawing.Size(105, 25);
             this.model.TabIndex = 7;
@@ -115,7 +166,7 @@
             this.bunifuCustomLabel1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bunifuCustomLabel1.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuCustomLabel1.ForeColor = System.Drawing.Color.Silver;
-            this.bunifuCustomLabel1.Location = new System.Drawing.Point(481, 418);
+            this.bunifuCustomLabel1.Location = new System.Drawing.Point(246, 375);
             this.bunifuCustomLabel1.Name = "bunifuCustomLabel1";
             this.bunifuCustomLabel1.Size = new System.Drawing.Size(60, 39);
             this.bunifuCustomLabel1.TabIndex = 7;
@@ -128,7 +179,7 @@
             this.total.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.total.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.total.ForeColor = System.Drawing.Color.Silver;
-            this.total.Location = new System.Drawing.Point(547, 418);
+            this.total.Location = new System.Drawing.Point(312, 375);
             this.total.Name = "total";
             this.total.Size = new System.Drawing.Size(121, 39);
             this.total.TabIndex = 7;
@@ -141,7 +192,7 @@
             this.bunifuCustomLabel2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bunifuCustomLabel2.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuCustomLabel2.ForeColor = System.Drawing.Color.Silver;
-            this.bunifuCustomLabel2.Location = new System.Drawing.Point(505, 364);
+            this.bunifuCustomLabel2.Location = new System.Drawing.Point(216, 283);
             this.bunifuCustomLabel2.Name = "bunifuCustomLabel2";
             this.bunifuCustomLabel2.Size = new System.Drawing.Size(36, 25);
             this.bunifuCustomLabel2.TabIndex = 7;
@@ -154,7 +205,7 @@
             this.tax.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.tax.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tax.ForeColor = System.Drawing.Color.Silver;
-            this.tax.Location = new System.Drawing.Point(547, 364);
+            this.tax.Location = new System.Drawing.Point(271, 283);
             this.tax.Name = "tax";
             this.tax.Size = new System.Drawing.Size(200, 25);
             this.tax.TabIndex = 7;
@@ -167,7 +218,7 @@
             this.pricee.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.pricee.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.pricee.ForeColor = System.Drawing.Color.Silver;
-            this.pricee.Location = new System.Drawing.Point(526, 184);
+            this.pricee.Location = new System.Drawing.Point(216, 235);
             this.pricee.Name = "pricee";
             this.pricee.Size = new System.Drawing.Size(200, 25);
             this.pricee.TabIndex = 7;
@@ -178,7 +229,7 @@
             this.P.AutoSize = true;
             this.P.Font = new System.Drawing.Font("Century Gothic", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.P.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.P.Location = new System.Drawing.Point(123, 419);
+            this.P.Location = new System.Drawing.Point(105, 376);
             this.P.Name = "P";
             this.P.Size = new System.Drawing.Size(93, 38);
             this.P.TabIndex = 6;
@@ -189,7 +240,7 @@
             this.t.AutoSize = true;
             this.t.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.t.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.t.Location = new System.Drawing.Point(126, 366);
+            this.t.Location = new System.Drawing.Point(100, 282);
             this.t.Name = "t";
             this.t.Size = new System.Drawing.Size(94, 23);
             this.t.TabIndex = 6;
@@ -200,22 +251,22 @@
             this.R.AutoSize = true;
             this.R.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.R.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.R.Location = new System.Drawing.Point(522, 144);
+            this.R.Location = new System.Drawing.Point(100, 235);
             this.R.Name = "R";
-            this.R.Size = new System.Drawing.Size(57, 23);
+            this.R.Size = new System.Drawing.Size(62, 23);
             this.R.TabIndex = 6;
-            this.R.Text = "Price";
+            this.R.Text = "Price:";
             // 
             // Namee
             // 
             this.Namee.AutoSize = true;
             this.Namee.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Namee.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Namee.Location = new System.Drawing.Point(241, 144);
+            this.Namee.Location = new System.Drawing.Point(100, 186);
             this.Namee.Name = "Namee";
-            this.Namee.Size = new System.Drawing.Size(87, 23);
+            this.Namee.Size = new System.Drawing.Size(92, 23);
             this.Namee.TabIndex = 6;
-            this.Namee.Text = "Product";
+            this.Namee.Text = "Product:";
             // 
             // qty
             // 
@@ -224,9 +275,9 @@
             this.qty.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.qty.Location = new System.Drawing.Point(100, 144);
             this.qty.Name = "qty";
-            this.qty.Size = new System.Drawing.Size(45, 23);
+            this.qty.Size = new System.Drawing.Size(98, 23);
             this.qty.TabIndex = 6;
-            this.qty.Text = "Qty";
+            this.qty.Text = "Quantity:";
             // 
             // label1
             // 
@@ -335,73 +386,11 @@
             this.button6.Text = "Settings";
             this.button6.UseVisualStyleBackColor = false;
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(58, 43);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(46, 17);
-            this.label2.TabIndex = 7;
-            this.label2.Text = "label2";
-            // 
-            // mainbtn
-            // 
-            this.mainbtn.ActiveBorderThickness = 1;
-            this.mainbtn.ActiveCornerRadius = 20;
-            this.mainbtn.ActiveFillColor = System.Drawing.Color.Black;
-            this.mainbtn.ActiveForecolor = System.Drawing.Color.White;
-            this.mainbtn.ActiveLineColor = System.Drawing.Color.Black;
-            this.mainbtn.BackColor = System.Drawing.Color.Black;
-            this.mainbtn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("mainbtn.BackgroundImage")));
-            this.mainbtn.ButtonText = "Return to Main Menu";
-            this.mainbtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.mainbtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mainbtn.ForeColor = System.Drawing.Color.Black;
-            this.mainbtn.IdleBorderThickness = 1;
-            this.mainbtn.IdleCornerRadius = 20;
-            this.mainbtn.IdleFillColor = System.Drawing.Color.White;
-            this.mainbtn.IdleForecolor = System.Drawing.Color.Black;
-            this.mainbtn.IdleLineColor = System.Drawing.Color.Black;
-            this.mainbtn.Location = new System.Drawing.Point(130, 556);
-            this.mainbtn.Margin = new System.Windows.Forms.Padding(5);
-            this.mainbtn.Name = "mainbtn";
-            this.mainbtn.Size = new System.Drawing.Size(253, 67);
-            this.mainbtn.TabIndex = 8;
-            this.mainbtn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.mainbtn.Click += new System.EventHandler(this.mainbtn_Click);
-            // 
-            // ex
-            // 
-            this.ex.ActiveBorderThickness = 1;
-            this.ex.ActiveCornerRadius = 20;
-            this.ex.ActiveFillColor = System.Drawing.Color.Black;
-            this.ex.ActiveForecolor = System.Drawing.Color.Red;
-            this.ex.ActiveLineColor = System.Drawing.Color.Black;
-            this.ex.BackColor = System.Drawing.Color.Black;
-            this.ex.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("ex.BackgroundImage")));
-            this.ex.ButtonText = "Exit";
-            this.ex.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.ex.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ex.ForeColor = System.Drawing.Color.Black;
-            this.ex.IdleBorderThickness = 1;
-            this.ex.IdleCornerRadius = 20;
-            this.ex.IdleFillColor = System.Drawing.Color.Red;
-            this.ex.IdleForecolor = System.Drawing.Color.Black;
-            this.ex.IdleLineColor = System.Drawing.Color.Black;
-            this.ex.Location = new System.Drawing.Point(526, 556);
-            this.ex.Margin = new System.Windows.Forms.Padding(5);
-            this.ex.Name = "ex";
-            this.ex.Size = new System.Drawing.Size(154, 67);
-            this.ex.TabIndex = 8;
-            this.ex.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.ex.Click += new System.EventHandler(this.mainbtn_Click);
-            // 
             // Reciept
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1102, 890);
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
@@ -417,7 +406,6 @@
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -432,7 +420,6 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label t;
         private System.Windows.Forms.Label R;
         private System.Windows.Forms.Label Namee;

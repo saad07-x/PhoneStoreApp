@@ -63,6 +63,12 @@
     <Compile Include="Apple.Designer.cs">
       <DependentUpon>Apple.cs</DependentUpon>
     </Compile>
+    <Compile Include="Repair.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Repair.Designer.cs">
+      <DependentUpon>Repair.cs</DependentUpon>
+    </Compile>
     <Compile Include="Information.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -167,6 +173,18 @@
     <Compile Include="SpecificationSamsung.Designer.cs">
       <DependentUpon>SpecificationSamsung.cs</DependentUpon>
     </Compile>
+    <Compile Include="SpecificationSell.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SpecificationSell.Designer.cs">
+      <DependentUpon>SpecificationSell.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Used.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Used.Designer.cs">
+      <DependentUpon>Used.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Aboutus.resx">
       <DependentUpon>Aboutus.cs</DependentUpon>
     </EmbeddedResource>
@@ -209,6 +227,9 @@
     <EmbeddedResource Include="Reciept.resx">
       <DependentUpon>Reciept.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Repair.resx">
+      <DependentUpon>Repair.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Samsung.resx">
       <DependentUpon>Samsung.cs</DependentUpon>
     </EmbeddedResource>
@@ -232,6 +253,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="SpecificationSamsung.resx">
       <DependentUpon>SpecificationSamsung.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SpecificationSell.resx">
+      <DependentUpon>SpecificationSell.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Used.resx">
+      <DependentUpon>Used.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

@@ -58,19 +58,28 @@
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.card = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.pin = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Black;
+            this.panel1.Controls.Add(this.radioButton2);
+            this.panel1.Controls.Add(this.radioButton1);
             this.panel1.Controls.Add(this.confirmbtn);
             this.panel1.Controls.Add(this.label7);
             this.panel1.Controls.Add(this.nametxtbox);
             this.panel1.Controls.Add(this.housetxtbox);
             this.panel1.Controls.Add(this.contactbox);
             this.panel1.Controls.Add(this.streettxtbox);
+            this.panel1.Controls.Add(this.pin);
+            this.panel1.Controls.Add(this.card);
             this.panel1.Controls.Add(this.email);
             this.panel1.Controls.Add(this.contact);
             this.panel1.Controls.Add(this.emailbox);
@@ -80,6 +89,8 @@
             this.panel1.Controls.Add(this.countrydrop);
             this.panel1.Controls.Add(this.label9);
             this.panel1.Controls.Add(this.label6);
+            this.panel1.Controls.Add(this.label12);
+            this.panel1.Controls.Add(this.label11);
             this.panel1.Controls.Add(this.label8);
             this.panel1.Controls.Add(this.label5);
             this.panel1.Controls.Add(this.label4);
@@ -96,7 +107,7 @@
             // confirmbtn
             // 
             this.confirmbtn.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.confirmbtn.Location = new System.Drawing.Point(382, 671);
+            this.confirmbtn.Location = new System.Drawing.Point(374, 819);
             this.confirmbtn.Name = "confirmbtn";
             this.confirmbtn.Size = new System.Drawing.Size(185, 38);
             this.confirmbtn.TabIndex = 10;
@@ -508,21 +519,103 @@
             this.button6.Text = "Settings";
             this.button6.UseVisualStyleBackColor = false;
             // 
-            // label2
+            // label11
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(58, 43);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(46, 17);
-            this.label2.TabIndex = 7;
-            this.label2.Text = "label2";
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Century Gothic", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label11.Location = new System.Drawing.Point(76, 702);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(108, 38);
+            this.label11.TabIndex = 6;
+            this.label11.Text = "CARD:";
+            this.label11.Visible = false;
             // 
-            // Appleinfo
+            // card
+            // 
+            this.card.BackColor = System.Drawing.Color.Gray;
+            this.card.BorderColorFocused = System.Drawing.Color.White;
+            this.card.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.card.BorderColorMouseHover = System.Drawing.Color.SlateGray;
+            this.card.BorderThickness = 1;
+            this.card.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.card.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.card.ForeColor = System.Drawing.Color.Black;
+            this.card.isPassword = false;
+            this.card.Location = new System.Drawing.Point(287, 702);
+            this.card.Margin = new System.Windows.Forms.Padding(4);
+            this.card.Name = "card";
+            this.card.Size = new System.Drawing.Size(370, 42);
+            this.card.TabIndex = 8;
+            this.card.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.card.Visible = false;
+            this.card.OnValueChanged += new System.EventHandler(this.bunifuMetroTextbox2_OnValueChanged);
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Century Gothic", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label12.Location = new System.Drawing.Point(76, 756);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(72, 38);
+            this.label12.TabIndex = 6;
+            this.label12.Text = "PIN:";
+            this.label12.Visible = false;
+            // 
+            // pin
+            // 
+            this.pin.BackColor = System.Drawing.Color.Gray;
+            this.pin.BorderColorFocused = System.Drawing.Color.White;
+            this.pin.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.pin.BorderColorMouseHover = System.Drawing.Color.SlateGray;
+            this.pin.BorderThickness = 1;
+            this.pin.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.pin.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pin.ForeColor = System.Drawing.Color.Black;
+            this.pin.isPassword = false;
+            this.pin.Location = new System.Drawing.Point(287, 758);
+            this.pin.Margin = new System.Windows.Forms.Padding(4);
+            this.pin.Name = "pin";
+            this.pin.Size = new System.Drawing.Size(370, 40);
+            this.pin.TabIndex = 8;
+            this.pin.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.pin.Visible = false;
+            this.pin.OnValueChanged += new System.EventHandler(this.bunifuMetroTextbox2_OnValueChanged);
+            // 
+            // radioButton1
+            // 
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.Font = new System.Drawing.Font("Century Gothic", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.radioButton1.Location = new System.Drawing.Point(287, 663);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(119, 23);
+            this.radioButton1.TabIndex = 11;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.Text = "CREDIT CARD";
+            this.radioButton1.UseVisualStyleBackColor = true;
+            this.radioButton1.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
+            // 
+            // radioButton2
+            // 
+            this.radioButton2.AutoSize = true;
+            this.radioButton2.Font = new System.Drawing.Font("Century Gothic", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.radioButton2.Location = new System.Drawing.Point(481, 663);
+            this.radioButton2.Name = "radioButton2";
+            this.radioButton2.Size = new System.Drawing.Size(157, 23);
+            this.radioButton2.TabIndex = 11;
+            this.radioButton2.TabStop = true;
+            this.radioButton2.Text = "CASH ON DELIVERY";
+            this.radioButton2.UseVisualStyleBackColor = true;
+            this.radioButton2.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
+            // 
+            // Information
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1102, 890);
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
@@ -531,14 +624,13 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Appleinfo";
+            this.Name = "Information";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MainMenu";
             this.Load += new System.EventHandler(this.Appleinfo_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -553,7 +645,6 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
@@ -574,5 +665,11 @@
         private System.Windows.Forms.Button confirmbtn;
         private Bunifu.Framework.UI.BunifuMetroTextbox email;
         private Bunifu.Framework.UI.BunifuMetroTextbox contact;
+        private System.Windows.Forms.RadioButton radioButton2;
+        private System.Windows.Forms.RadioButton radioButton1;
+        private Bunifu.Framework.UI.BunifuMetroTextbox pin;
+        private Bunifu.Framework.UI.BunifuMetroTextbox card;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label label11;
     }
 }

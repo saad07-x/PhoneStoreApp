@@ -14,6 +14,8 @@ namespace StoreProject
 {
     public partial class Sell : Form
     {
+        public static Image aa;
+        public static String mod;
         string cs = ConfigurationManager.ConnectionStrings["dbcs"].ConnectionString;
         public Sell()
         {
@@ -34,7 +36,8 @@ namespace StoreProject
             cmd.Parameters.AddWithValue("@email", email.Text);
             cmd.Parameters.AddWithValue("@city", city.Text);
 
-
+            aa = pictureBox1.Image;
+            mod = brand.Text;
             con.Open();
             int a = cmd.ExecuteNonQuery();
 
@@ -53,6 +56,18 @@ namespace StoreProject
             {
                 pictureBox1.Image = new Bitmap(opnfd.FileName);
             }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            MainMenu m = new MainMenu();
+            m.Show();
+        }
+
+        private void Sell_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

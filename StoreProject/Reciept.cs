@@ -35,13 +35,13 @@ namespace StoreProject
 
         private void mainbtn_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            this.Close();
             MainMenu m = new MainMenu();
             m.Show();
         }
         private void ex_Click(object sender, EventArgs e)
         {
-            //this.Hide();
+           
             Application.Exit();
         }
 

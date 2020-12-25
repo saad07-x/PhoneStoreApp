@@ -32,13 +32,14 @@ namespace StoreProject
 
         private void button1_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            this.Close();
             MainMenu m = new MainMenu();
             m.Show();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
+            this.Close();
             Buy p = new Buy();
             p.Show();
         }
@@ -73,6 +74,8 @@ namespace StoreProject
             }
             
             con.Close();
+            this.Close();
+
             SpecificationSamsung s = new SpecificationSamsung();
             s.Show();
         }
@@ -100,6 +103,8 @@ namespace StoreProject
             }
 
             con.Close();
+            this.Close();
+
             SpecificationSamsung s = new SpecificationSamsung();
             s.Show();
         }
@@ -132,6 +137,8 @@ namespace StoreProject
             }
 
             con.Close();
+            this.Close();
+
             SpecificationSamsung s = new SpecificationSamsung();
             s.Show();
         }
@@ -159,6 +166,8 @@ namespace StoreProject
             }
 
             con.Close();
+            this.Close();
+
             SpecificationSamsung s = new SpecificationSamsung();
             s.Show();
         }
@@ -186,6 +195,8 @@ namespace StoreProject
             }
 
             con.Close();
+            this.Close();
+
             SpecificationSamsung s = new SpecificationSamsung();
             s.Show();
         }
@@ -213,6 +224,8 @@ namespace StoreProject
             }
 
             con.Close();
+            this.Close();
+
             SpecificationSamsung s = new SpecificationSamsung();
             s.Show();
         }
@@ -240,6 +253,8 @@ namespace StoreProject
             }
 
             con.Close();
+            this.Close();
+
             SpecificationSamsung s = new SpecificationSamsung();
             s.Show();
         }
@@ -267,6 +282,8 @@ namespace StoreProject
             }
 
             con.Close();
+            this.Close();
+
             SpecificationSamsung s = new SpecificationSamsung();
             s.Show();
         }
@@ -280,7 +297,7 @@ namespace StoreProject
 
         private void button4_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            this.Close();
             Aboutus a = new Aboutus();
             a.Show();
         }

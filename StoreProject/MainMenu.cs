@@ -24,8 +24,8 @@ namespace StoreProject
 
         private void bunifuThinButton21_Click(object sender, EventArgs e)
         {
-            this.Hide();
-           
+            this.Close();
+
             Buy p = new Buy();
             p.Show();
         }
@@ -44,16 +44,31 @@ namespace StoreProject
 
         private void button4_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            this.Close();
             Contactus c = new Contactus();
             c.Show();
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            this.Close();
             Aboutus a = new Aboutus();
             a.Show();
+        }
+
+        private void bunifuThinButton22_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Sell r = new Sell();
+            r.Show();
+
+        }
+        private void bunifuThinButton23_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Repair r = new Repair();
+            r.Show();
+
         }
     }
 }

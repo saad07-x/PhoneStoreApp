@@ -107,6 +107,22 @@ namespace StoreProject
 
         }
 
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+            label11.Visible = true;
+            card.Visible = true;
+            label12.Visible = true;
+            pin.Visible = true;
+        }
+
+        private void radioButton2_CheckedChanged(object sender, EventArgs e)
+        {
+            label11.Visible = false;
+            card.Visible = false;
+            label12.Visible = false;
+            pin.Visible = false;
+        }
+
         private void Appleinfo_Load(object sender, EventArgs e)
         {
 

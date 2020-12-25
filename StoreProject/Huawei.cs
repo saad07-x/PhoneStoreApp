@@ -91,6 +91,8 @@ namespace StoreProject
             }
 
             con.Close();
+            this.Hide();
+
             SpecificationHuawei specification = new SpecificationHuawei();
             specification.Show();
         }
@@ -118,6 +120,8 @@ namespace StoreProject
             }
 
             con.Close();
+            this.Hide();
+
             SpecificationHuawei specification = new SpecificationHuawei();
             specification.Show();
         }
@@ -145,6 +149,8 @@ namespace StoreProject
             }
 
             con.Close();
+            this.Hide();
+
             SpecificationHuawei specification = new SpecificationHuawei();
             specification.Show();
         }
@@ -199,6 +205,8 @@ namespace StoreProject
             }
 
             con.Close();
+            this.Hide();
+
             SpecificationHuawei specification = new SpecificationHuawei();
             specification.Show();
         }
@@ -226,6 +234,8 @@ namespace StoreProject
             }
 
             con.Close();
+            this.Hide();
+
             SpecificationHuawei specification = new SpecificationHuawei();
             specification.Show();
         }
@@ -253,6 +263,8 @@ namespace StoreProject
             }
 
             con.Close();
+            this.Hide();
+
             SpecificationHuawei specification = new SpecificationHuawei();
             specification.Show();
         }
@@ -280,6 +292,8 @@ namespace StoreProject
             }
 
             con.Close();
+            this.Hide();
+
             SpecificationHuawei specification = new SpecificationHuawei();
             specification.Show();
         }
@@ -307,6 +321,8 @@ namespace StoreProject
             }
 
             con.Close();
+            this.Hide();
+
             SpecificationHuawei specification = new SpecificationHuawei();
             specification.Show();
         }

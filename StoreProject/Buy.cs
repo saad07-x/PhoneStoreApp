@@ -84,5 +84,12 @@ namespace StoreProject
             Aboutus a = new Aboutus();
             a.Show();
         }
+
+        private void bunifuThinButton26_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Used u = new Used();
+            u.Show();
+        }
     }
 }

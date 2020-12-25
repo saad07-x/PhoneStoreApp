@@ -92,6 +92,7 @@ namespace StoreProject
             }
 
             con.Close();
+            this.Hide();
             SpecificationBlackberry specification = new SpecificationBlackberry();
             specification.Show();
         }
@@ -119,6 +120,8 @@ namespace StoreProject
             }
 
             con.Close();
+            this.Hide();
+
             SpecificationBlackberry specification = new SpecificationBlackberry();
             specification.Show();
         }
@@ -146,6 +149,8 @@ namespace StoreProject
             }
 
             con.Close();
+            this.Hide();
+
             SpecificationBlackberry specification = new SpecificationBlackberry();
             specification.Show();
         }
@@ -173,6 +178,8 @@ namespace StoreProject
             }
 
             con.Close();
+            this.Hide();
+
             SpecificationBlackberry specification = new SpecificationBlackberry();
             specification.Show();
         }
@@ -200,6 +207,8 @@ namespace StoreProject
             }
 
             con.Close();
+            this.Hide();
+
             SpecificationBlackberry specification = new SpecificationBlackberry();
             specification.Show();
         }
@@ -227,6 +236,8 @@ namespace StoreProject
             }
 
             con.Close();
+            this.Hide();
+
             SpecificationBlackberry specification = new SpecificationBlackberry();
             specification.Show();
         }
@@ -254,6 +265,8 @@ namespace StoreProject
             }
 
             con.Close();
+            this.Hide();
+
             SpecificationBlackberry specification = new SpecificationBlackberry();
             specification.Show();
         }
@@ -281,6 +294,8 @@ namespace StoreProject
             }
 
             con.Close();
+            this.Hide();
+
             SpecificationBlackberry specification = new SpecificationBlackberry();
             specification.Show();
         }
@@ -308,6 +323,8 @@ namespace StoreProject
             }
 
             con.Close();
+            this.Hide();
+
             SpecificationBlackberry specification = new SpecificationBlackberry();
             specification.Show();
         }
