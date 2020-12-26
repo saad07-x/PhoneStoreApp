@@ -2,7 +2,7 @@ Create Database WINFORM_DB;
 
 USE WINFORM_DB;
 
-SELECT * FROM LOGIN
+SELECT * FROM LOGIN_TBL
 
 CREATE TABLE LOGIN(	/*This table will be used which will store and compare login/signup details. */
 	USERNAME VARCHAR(20) NOT NULL,

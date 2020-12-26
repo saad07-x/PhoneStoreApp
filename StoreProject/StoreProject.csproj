@@ -51,168 +51,174 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Aboutus.cs">
+    <Compile Include="Source Code\Aboutus.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Aboutus.Designer.cs">
+    <Compile Include="Source Code\Aboutus.Designer.cs">
       <DependentUpon>Aboutus.cs</DependentUpon>
     </Compile>
-    <Compile Include="Apple.cs">
+    <Compile Include="Source Code\Apple.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Apple.Designer.cs">
+    <Compile Include="Source Code\Apple.Designer.cs">
       <DependentUpon>Apple.cs</DependentUpon>
     </Compile>
-    <Compile Include="Repair.cs">
+    <Compile Include="Source Code\Repair.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Repair.Designer.cs">
+    <Compile Include="Source Code\Repair.Designer.cs">
       <DependentUpon>Repair.cs</DependentUpon>
     </Compile>
-    <Compile Include="Information.cs">
+    <Compile Include="Source Code\Information.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Information.Designer.cs">
+    <Compile Include="Source Code\Information.Designer.cs">
       <DependentUpon>Information.cs</DependentUpon>
     </Compile>
-    <Compile Include="Blackberry.cs">
+    <Compile Include="Source Code\Blackberry.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Blackberry.Designer.cs">
+    <Compile Include="Source Code\Blackberry.Designer.cs">
       <DependentUpon>Blackberry.cs</DependentUpon>
     </Compile>
-    <Compile Include="Contactus.cs">
+    <Compile Include="Source Code\Contactus.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Contactus.Designer.cs">
+    <Compile Include="Source Code\Contactus.Designer.cs">
       <DependentUpon>Contactus.cs</DependentUpon>
     </Compile>
-    <Compile Include="Huawei.cs">
+    <Compile Include="Source Code\Huawei.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Huawei.Designer.cs">
+    <Compile Include="Source Code\Huawei.Designer.cs">
       <DependentUpon>Huawei.cs</DependentUpon>
     </Compile>
-    <Compile Include="Login.cs">
+    <Compile Include="Source Code\Login.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Login.Designer.cs">
+    <Compile Include="Source Code\Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
-    <Compile Include="MainMenu.cs">
+    <Compile Include="Source Code\MainMenu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MainMenu.Designer.cs">
+    <Compile Include="Source Code\MainMenu.Designer.cs">
       <DependentUpon>MainMenu.cs</DependentUpon>
     </Compile>
-    <Compile Include="OnePlus.cs">
+    <Compile Include="Source Code\OnePlus.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="OnePlus.Designer.cs">
+    <Compile Include="Source Code\OnePlus.Designer.cs">
       <DependentUpon>OnePlus.cs</DependentUpon>
     </Compile>
-    <Compile Include="Buy.cs">
+    <Compile Include="Source Code\Buy.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Buy.Designer.cs">
+    <Compile Include="Source Code\Buy.Designer.cs">
       <DependentUpon>Buy.cs</DependentUpon>
     </Compile>
-    <Compile Include="Program.cs" />
+    <Compile Include="Source Code\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Reciept.cs">
+    <Compile Include="Source Code\Reciept.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Reciept.Designer.cs">
+    <Compile Include="Source Code\Reciept.Designer.cs">
       <DependentUpon>Reciept.cs</DependentUpon>
     </Compile>
-    <Compile Include="Samsung.cs">
+    <Compile Include="Source Code\Samsung.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Samsung.Designer.cs">
+    <Compile Include="Source Code\Samsung.Designer.cs">
       <DependentUpon>Samsung.cs</DependentUpon>
     </Compile>
-    <Compile Include="Sell.cs">
+    <Compile Include="Source Code\Sell.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Sell.Designer.cs">
+    <Compile Include="Source Code\Sell.Designer.cs">
       <DependentUpon>Sell.cs</DependentUpon>
     </Compile>
-    <Compile Include="Signup.cs">
+    <Compile Include="Source Code\Signup.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Signup.Designer.cs">
+    <Compile Include="Source Code\Signup.Designer.cs">
       <DependentUpon>Signup.cs</DependentUpon>
     </Compile>
-    <Compile Include="SpecificationApple.cs">
+    <Compile Include="Source Code\SpecificationApple.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SpecificationApple.Designer.cs">
+    <Compile Include="Source Code\SpecificationApple.Designer.cs">
       <DependentUpon>SpecificationApple.cs</DependentUpon>
     </Compile>
-    <Compile Include="SpecificationBlackberry.cs">
+    <Compile Include="Source Code\SpecificationBlackberry.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SpecificationBlackberry.Designer.cs">
+    <Compile Include="Source Code\SpecificationBlackberry.Designer.cs">
       <DependentUpon>SpecificationBlackberry.cs</DependentUpon>
     </Compile>
-    <Compile Include="SpecificationHuawei.cs">
+    <Compile Include="Source Code\SpecificationHuawei.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SpecificationHuawei.Designer.cs">
+    <Compile Include="Source Code\SpecificationHuawei.Designer.cs">
       <DependentUpon>SpecificationHuawei.cs</DependentUpon>
     </Compile>
-    <Compile Include="SpecificationOneplus.cs">
+    <Compile Include="Source Code\SpecificationOneplus.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SpecificationOneplus.Designer.cs">
+    <Compile Include="Source Code\SpecificationOneplus.Designer.cs">
       <DependentUpon>SpecificationOneplus.cs</DependentUpon>
     </Compile>
-    <Compile Include="SpecificationSamsung.cs">
+    <Compile Include="Source Code\SpecificationSamsung.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SpecificationSamsung.Designer.cs">
+    <Compile Include="Source Code\SpecificationSamsung.Designer.cs">
       <DependentUpon>SpecificationSamsung.cs</DependentUpon>
     </Compile>
-    <Compile Include="SpecificationSell.cs">
+    <Compile Include="Source Code\SpecificationSell.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SpecificationSell.Designer.cs">
+    <Compile Include="Source Code\SpecificationSell.Designer.cs">
       <DependentUpon>SpecificationSell.cs</DependentUpon>
     </Compile>
-    <Compile Include="Used.cs">
+    <Compile Include="Source Code\Thankyou.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Used.Designer.cs">
+    <Compile Include="Source Code\Thankyou.Designer.cs">
+      <DependentUpon>Thankyou.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Source Code\Used.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Source Code\Used.Designer.cs">
       <DependentUpon>Used.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Aboutus.resx">
+    <EmbeddedResource Include="Source Code\Aboutus.resx">
       <DependentUpon>Aboutus.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Apple.resx">
+    <EmbeddedResource Include="Source Code\Apple.resx">
       <DependentUpon>Apple.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Information.resx">
+    <EmbeddedResource Include="Source Code\Information.resx">
       <DependentUpon>Information.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Blackberry.resx">
+    <EmbeddedResource Include="Source Code\Blackberry.resx">
       <DependentUpon>Blackberry.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Contactus.resx">
+    <EmbeddedResource Include="Source Code\Contactus.resx">
       <DependentUpon>Contactus.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Huawei.resx">
+    <EmbeddedResource Include="Source Code\Huawei.resx">
       <DependentUpon>Huawei.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Login.resx">
+    <EmbeddedResource Include="Source Code\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MainMenu.resx">
+    <EmbeddedResource Include="Source Code\MainMenu.resx">
       <DependentUpon>MainMenu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="OnePlus.resx">
+    <EmbeddedResource Include="Source Code\OnePlus.resx">
       <DependentUpon>OnePlus.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Buy.resx">
+    <EmbeddedResource Include="Source Code\Buy.resx">
       <DependentUpon>Buy.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -224,40 +230,43 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Reciept.resx">
+    <EmbeddedResource Include="Source Code\Reciept.resx">
       <DependentUpon>Reciept.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Repair.resx">
+    <EmbeddedResource Include="Source Code\Repair.resx">
       <DependentUpon>Repair.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Samsung.resx">
+    <EmbeddedResource Include="Source Code\Samsung.resx">
       <DependentUpon>Samsung.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Sell.resx">
+    <EmbeddedResource Include="Source Code\Sell.resx">
       <DependentUpon>Sell.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Signup.resx">
+    <EmbeddedResource Include="Source Code\Signup.resx">
       <DependentUpon>Signup.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SpecificationApple.resx">
+    <EmbeddedResource Include="Source Code\SpecificationApple.resx">
       <DependentUpon>SpecificationApple.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SpecificationBlackberry.resx">
+    <EmbeddedResource Include="Source Code\SpecificationBlackberry.resx">
       <DependentUpon>SpecificationBlackberry.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SpecificationHuawei.resx">
+    <EmbeddedResource Include="Source Code\SpecificationHuawei.resx">
       <DependentUpon>SpecificationHuawei.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SpecificationOneplus.resx">
+    <EmbeddedResource Include="Source Code\SpecificationOneplus.resx">
       <DependentUpon>SpecificationOneplus.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SpecificationSamsung.resx">
+    <EmbeddedResource Include="Source Code\SpecificationSamsung.resx">
       <DependentUpon>SpecificationSamsung.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SpecificationSell.resx">
+    <EmbeddedResource Include="Source Code\SpecificationSell.resx">
       <DependentUpon>SpecificationSell.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Used.resx">
+    <EmbeddedResource Include="Source Code\Thankyou.resx">
+      <DependentUpon>Thankyou.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Source Code\Used.resx">
       <DependentUpon>Used.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
@@ -272,6 +281,55 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Database\PhoneProject.sql" />
+    <Content Include="Resources\apple-iphone-11.jpg" />
+    <Content Include="Resources\apple-iphone-12.jpg" />
+    <Content Include="Resources\apple-iphone-4s-new.jpg" />
+    <Content Include="Resources\apple-iphone-5s-ofic.jpg" />
+    <Content Include="Resources\apple-iphone-6s1.jpg" />
+    <Content Include="Resources\apple-iphone-7r4.jpg" />
+    <Content Include="Resources\apple-iphone-8-new.jpg" />
+    <Content Include="Resources\apple-iphone-x.jpg" />
+    <Content Include="Resources\apple-iphone3g.jpg" />
+    <Content Include="Resources\blackberry-aurora.jpg" />
+    <Content Include="Resources\blackberry-evolveX.jpg" />
+    <Content Include="Resources\blackberry-key2-new.jpg" />
+    <Content Include="Resources\blackberry-keyone.jpg" />
+    <Content Include="Resources\blackberry-motion.jpg" />
+    <Content Include="Resources\blackberry-passport.jpg" />
+    <Content Include="Resources\BlackBerry-Porsche-Design-P9983-1.jpg" />
+    <Content Include="Resources\blackberry-priv.jpg" />
+    <Content Include="Resources\blackberry-Z3.jpg" />
+    <Content Include="Resources\huawei-enjoy-10.jpg" />
+    <Content Include="Resources\huawei-enjoy-20-se.jpg" />
+    <Content Include="Resources\huawei-mate-40.jpg" />
+    <Content Include="Resources\huawei-nova-5-.jpg" />
+    <Content Include="Resources\huawei-nova-6.jpg" />
+    <Content Include="Resources\huawei-nova-8.jpg" />
+    <Content Include="Resources\huawei-nova7-5g.jpg" />
+    <Content Include="Resources\huawei-p40.jpg" />
+    <Content Include="Resources\huawei-y9-2019-.jpg" />
+    <Content Include="Resources\oneplus-3t-.jpg" />
+    <Content Include="Resources\oneplus-5t.jpg" />
+    <Content Include="Resources\oneplus-6t-thunder-purple.jpg" />
+    <Content Include="Resources\oneplus-7t-.jpg" />
+    <Content Include="Resources\oneplus-8t.jpg" />
+    <Content Include="Resources\oneplus-mclaren-edition-.jpg" />
+    <Content Include="Resources\oneplus-nord.jpg" />
+    <Content Include="Resources\oneplus-one.jpg" />
+    <Content Include="Resources\oneplus-x.jpg" />
+    <Content Include="Resources\samsung-galaxy 21-5g.jpg" />
+    <Content Include="Resources\samsung-galaxy-s10.jpg" />
+    <Content Include="Resources\samsung-galaxy-s20-.jpg" />
+    <Content Include="Resources\samsung-galaxy-s4-mini-plus-gt-i9195i.jpg" />
+    <Content Include="Resources\samsung-galaxy-s5-neo.jpg" />
+    <Content Include="Resources\samsung-galaxy-s6-edge-plus.jpg" />
+    <Content Include="Resources\samsung-galaxy-s7--.jpg" />
+    <Content Include="Resources\samsung-galaxy-s8-active.jpg" />
+    <Content Include="Resources\samsung-galaxy-s9-.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
