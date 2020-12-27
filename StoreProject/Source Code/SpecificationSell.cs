@@ -32,7 +32,7 @@ namespace StoreProject
 
         private void button8_Click(object sender, EventArgs e)
         {
-            this.Close();
+            this.Hide();
             Information r = new Information(model.Text, price.Text);
             r.Show();
         }

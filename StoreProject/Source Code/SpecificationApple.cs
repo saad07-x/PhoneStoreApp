@@ -61,7 +61,7 @@ namespace StoreProject
         {
             //int pricepass = int.Parse(price.Text);
             //Convert.ToInt32(this.price.Text);
-            this.Close();
+            this.Hide();
             Information r = new Information(model.Text, price.Text);
             r.Show();
 

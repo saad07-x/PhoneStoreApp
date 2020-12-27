@@ -13,16 +13,17 @@ namespace StoreProject
     public partial class Reciept : Form
     {
 
-        public Reciept(string modell, string p)
+        public Reciept(string modell, string pp)
         {
             InitializeComponent();
             model.Text = modell;
-            pricee.Text = p;
+            pricee.Text = pp;
 
+            int x = Int32.Parse(pp);
             //Calculation
-            int pr = int.Parse(pricee.Text);
-            double tx = pr * 0.15;
-            double tot = pr + tx;
+            //int pr = int.Parse(pp);
+            double tx = x * 0.15;
+            double tot = x + tx;
             tax.Text = tx.ToString();
             total.Text = tot.ToString();
 
@@ -48,6 +49,13 @@ namespace StoreProject
         private void Reciept_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void bunifuThinButton21_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Thankyou t = new Thankyou();
+            t.Show();
         }
     }
  

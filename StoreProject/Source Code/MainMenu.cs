@@ -24,7 +24,7 @@ namespace StoreProject
 
         private void bunifuThinButton21_Click(object sender, EventArgs e)
         {
-            this.Close();
+            this.Hide();
 
             Buy p = new Buy();
             p.Show();
@@ -65,10 +65,17 @@ namespace StoreProject
         }
         private void bunifuThinButton23_Click(object sender, EventArgs e)
         {
-            this.Close();
+            this.Hide();
             Repair r = new Repair();
             r.Show();
 
+        }
+
+        private void repair_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Repair r = new Repair();
+            r.Show();
         }
     }
 }

@@ -57,9 +57,10 @@ namespace StoreProject
 
         private void button8_Click(object sender, EventArgs e)
         {
-            int pricepass = int.Parse(price.Text);
+            // int pricepass = int32.Parse(price.Text);
             //Convert.ToInt32(this.price.Text);
-            this.Close();
+            //this.Close();
+            this.Hide();
             Information r = new Information(model.Text, price.Text);
             r.Show();
         }

@@ -37,6 +37,12 @@ namespace StoreProject
             con.Open();
             cmd.ExecuteNonQuery();
             con.Close();
+
+           
+            MessageBox.Show("Your Problem has been added. Click Okay to got to the main menu.");
+            this.Close();
+            MainMenu m = new MainMenu();
+            m.Show();
         }
 
         private void brand_OnValueChanged(object sender, EventArgs e)

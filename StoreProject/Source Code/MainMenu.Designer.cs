@@ -33,7 +33,6 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.bunifuCustomLabel1 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuThinButton23 = new Bunifu.Framework.UI.BunifuThinButton2();
             this.bunifuThinButton22 = new Bunifu.Framework.UI.BunifuThinButton2();
             this.bunifuThinButton21 = new Bunifu.Framework.UI.BunifuThinButton2();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
@@ -45,6 +44,7 @@
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
+            this.repair = new Bunifu.Framework.UI.BunifuThinButton2();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -54,9 +54,9 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Black;
+            this.panel1.Controls.Add(this.repair);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.bunifuCustomLabel1);
-            this.panel1.Controls.Add(this.bunifuThinButton23);
             this.panel1.Controls.Add(this.bunifuThinButton22);
             this.panel1.Controls.Add(this.bunifuThinButton21);
             this.panel1.Controls.Add(this.pictureBox3);
@@ -91,32 +91,6 @@
             this.bunifuCustomLabel1.Size = new System.Drawing.Size(666, 76);
             this.bunifuCustomLabel1.TabIndex = 4;
             this.bunifuCustomLabel1.Text = "MOBILE PHONE STORE";
-            // 
-            // bunifuThinButton23
-            // 
-            this.bunifuThinButton23.ActiveBorderThickness = 1;
-            this.bunifuThinButton23.ActiveCornerRadius = 20;
-            this.bunifuThinButton23.ActiveFillColor = System.Drawing.Color.Silver;
-            this.bunifuThinButton23.ActiveForecolor = System.Drawing.Color.White;
-            this.bunifuThinButton23.ActiveLineColor = System.Drawing.Color.Silver;
-            this.bunifuThinButton23.BackColor = System.Drawing.Color.Black;
-            this.bunifuThinButton23.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton23.BackgroundImage")));
-            this.bunifuThinButton23.ButtonText = "REPAIR";
-            this.bunifuThinButton23.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuThinButton23.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuThinButton23.ForeColor = System.Drawing.Color.SeaGreen;
-            this.bunifuThinButton23.IdleBorderThickness = 3;
-            this.bunifuThinButton23.IdleCornerRadius = 20;
-            this.bunifuThinButton23.IdleFillColor = System.Drawing.Color.Black;
-            this.bunifuThinButton23.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bunifuThinButton23.IdleLineColor = System.Drawing.Color.Silver;
-            this.bunifuThinButton23.Location = new System.Drawing.Point(565, 347);
-            this.bunifuThinButton23.Margin = new System.Windows.Forms.Padding(5);
-            this.bunifuThinButton23.Name = "bunifuThinButton23";
-            this.bunifuThinButton23.Size = new System.Drawing.Size(163, 51);
-            this.bunifuThinButton23.TabIndex = 3;
-            this.bunifuThinButton23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.bunifuThinButton23.Click += new System.EventHandler(this.bunifuThinButton22_Click);
             // 
             // bunifuThinButton22
             // 
@@ -291,6 +265,32 @@
             this.button5.UseVisualStyleBackColor = false;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
+            // repair
+            // 
+            this.repair.ActiveBorderThickness = 1;
+            this.repair.ActiveCornerRadius = 20;
+            this.repair.ActiveFillColor = System.Drawing.Color.Silver;
+            this.repair.ActiveForecolor = System.Drawing.Color.White;
+            this.repair.ActiveLineColor = System.Drawing.Color.Silver;
+            this.repair.BackColor = System.Drawing.Color.Black;
+            this.repair.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("repair.BackgroundImage")));
+            this.repair.ButtonText = "REPAIR";
+            this.repair.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.repair.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.repair.ForeColor = System.Drawing.Color.SeaGreen;
+            this.repair.IdleBorderThickness = 3;
+            this.repair.IdleCornerRadius = 20;
+            this.repair.IdleFillColor = System.Drawing.Color.Black;
+            this.repair.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.repair.IdleLineColor = System.Drawing.Color.Silver;
+            this.repair.Location = new System.Drawing.Point(565, 356);
+            this.repair.Margin = new System.Windows.Forms.Padding(5);
+            this.repair.Name = "repair";
+            this.repair.Size = new System.Drawing.Size(163, 51);
+            this.repair.TabIndex = 6;
+            this.repair.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.repair.Click += new System.EventHandler(this.repair_Click);
+            // 
             // MainMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -331,7 +331,7 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button5;
-        private Bunifu.Framework.UI.BunifuThinButton2 bunifuThinButton23;
         private System.Windows.Forms.PictureBox pictureBox3;
+        private Bunifu.Framework.UI.BunifuThinButton2 repair;
     }
 }

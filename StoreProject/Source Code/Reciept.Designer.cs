@@ -31,7 +31,7 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Reciept));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.ex = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.bunifuThinButton21 = new Bunifu.Framework.UI.BunifuThinButton2();
             this.mainbtn = new Bunifu.Framework.UI.BunifuThinButton2();
             this.ram = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.model = new Bunifu.Framework.UI.BunifuCustomLabel();
@@ -59,7 +59,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Black;
-            this.panel1.Controls.Add(this.ex);
+            this.panel1.Controls.Add(this.bunifuThinButton21);
             this.panel1.Controls.Add(this.mainbtn);
             this.panel1.Controls.Add(this.ram);
             this.panel1.Controls.Add(this.model);
@@ -81,31 +81,31 @@
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
-            // ex
+            // bunifuThinButton21
             // 
-            this.ex.ActiveBorderThickness = 1;
-            this.ex.ActiveCornerRadius = 20;
-            this.ex.ActiveFillColor = System.Drawing.Color.Black;
-            this.ex.ActiveForecolor = System.Drawing.Color.Red;
-            this.ex.ActiveLineColor = System.Drawing.Color.Black;
-            this.ex.BackColor = System.Drawing.Color.Black;
-            this.ex.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("ex.BackgroundImage")));
-            this.ex.ButtonText = "Exit";
-            this.ex.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.ex.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ex.ForeColor = System.Drawing.Color.Black;
-            this.ex.IdleBorderThickness = 1;
-            this.ex.IdleCornerRadius = 20;
-            this.ex.IdleFillColor = System.Drawing.Color.Red;
-            this.ex.IdleForecolor = System.Drawing.Color.Black;
-            this.ex.IdleLineColor = System.Drawing.Color.Black;
-            this.ex.Location = new System.Drawing.Point(526, 556);
-            this.ex.Margin = new System.Windows.Forms.Padding(5);
-            this.ex.Name = "ex";
-            this.ex.Size = new System.Drawing.Size(154, 67);
-            this.ex.TabIndex = 8;
-            this.ex.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.ex.Click += new System.EventHandler(this.mainbtn_Click);
+            this.bunifuThinButton21.ActiveBorderThickness = 1;
+            this.bunifuThinButton21.ActiveCornerRadius = 20;
+            this.bunifuThinButton21.ActiveFillColor = System.Drawing.Color.Black;
+            this.bunifuThinButton21.ActiveForecolor = System.Drawing.Color.Red;
+            this.bunifuThinButton21.ActiveLineColor = System.Drawing.Color.Black;
+            this.bunifuThinButton21.BackColor = System.Drawing.Color.Black;
+            this.bunifuThinButton21.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton21.BackgroundImage")));
+            this.bunifuThinButton21.ButtonText = "Exit";
+            this.bunifuThinButton21.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuThinButton21.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuThinButton21.ForeColor = System.Drawing.Color.Black;
+            this.bunifuThinButton21.IdleBorderThickness = 1;
+            this.bunifuThinButton21.IdleCornerRadius = 20;
+            this.bunifuThinButton21.IdleFillColor = System.Drawing.Color.Red;
+            this.bunifuThinButton21.IdleForecolor = System.Drawing.Color.Black;
+            this.bunifuThinButton21.IdleLineColor = System.Drawing.Color.Black;
+            this.bunifuThinButton21.Location = new System.Drawing.Point(494, 556);
+            this.bunifuThinButton21.Margin = new System.Windows.Forms.Padding(5);
+            this.bunifuThinButton21.Name = "bunifuThinButton21";
+            this.bunifuThinButton21.Size = new System.Drawing.Size(154, 67);
+            this.bunifuThinButton21.TabIndex = 9;
+            this.bunifuThinButton21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.bunifuThinButton21.Click += new System.EventHandler(this.bunifuThinButton21_Click);
             // 
             // mainbtn
             // 
@@ -220,9 +220,9 @@
             this.pricee.ForeColor = System.Drawing.Color.Silver;
             this.pricee.Location = new System.Drawing.Point(216, 235);
             this.pricee.Name = "pricee";
-            this.pricee.Size = new System.Drawing.Size(200, 25);
+            this.pricee.Size = new System.Drawing.Size(72, 25);
             this.pricee.TabIndex = 7;
-            this.pricee.Text = "bunifuCustomLabel1";
+            this.pricee.Text = "pricee";
             // 
             // P
             // 
@@ -434,6 +434,6 @@
         private Bunifu.Framework.UI.BunifuCustomLabel total;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel2;
         private Bunifu.Framework.UI.BunifuThinButton2 mainbtn;
-        private Bunifu.Framework.UI.BunifuThinButton2 ex;
+        private Bunifu.Framework.UI.BunifuThinButton2 bunifuThinButton21;
     }
 }

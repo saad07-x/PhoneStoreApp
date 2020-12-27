@@ -100,8 +100,9 @@ namespace StoreProject
             cmdd.ExecuteNonQuery();
             conn.Close();
             */
-            this.Close();
             Reciept r = new Reciept(mm, pp);
+            this.Close();
+
             r.Show();
 
 
